@@ -9,6 +9,8 @@ urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 class Quote(commands.Cog):
     """Recieves quote commands"""
 
+    COG_EMOJI = "🗣️"
+
     def __init__(self, client):
         self.client = client
 
@@ -18,7 +20,14 @@ class Quote(commands.Cog):
 
     @commands.command()
     async def quote(self, ctx, *args):
-        """Generates random SW quotes"""
+        """A command which generates random quotes from cannon
+
+        Usage:
+
+        ```
+        $quote
+        ```
+        """
         data = requests.get(
             url="http://swquotesapi.digitaljedi.dk/api/SWQuote/RandomStarWarsQuote",
             verify=False,

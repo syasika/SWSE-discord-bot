@@ -24,6 +24,8 @@ class MyStringifier(d20.SimpleStringifier):
 class Roll(commands.Cog):
     """Recieves dice commands"""
 
+    COG_EMOJI = "🎲"
+
     def __init__(self, client):
         self.client = client
 
@@ -33,7 +35,13 @@ class Roll(commands.Cog):
 
     @commands.command()
     async def roll(self, ctx, arg):
-        """Rolls dice using roll20 syntax ($roll 1d20+15)"""
+        """Rolls a given amount of dice in the form _d_
+
+        Usage:
+        ```
+        $roll 1d10+5
+        ```
+        """
         result = get_roll(arg)
         await ctx.send(result)
 

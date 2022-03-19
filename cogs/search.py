@@ -6,6 +6,8 @@ import urllib.parse
 class Search(commands.Cog):
     """Recieves swse search commands"""
 
+    COG_EMOJI = "🕵️"
+
     def __init__(self, client):
         self.client = client
 
@@ -15,7 +17,13 @@ class Search(commands.Cog):
 
     @commands.command()
     async def search(self, ctx, *args):
-        """Generates SWSE wiki search link with your search criteria ($search move object)"""
+        """Generates SWSE wiki search link with your search criteria
+
+        Usage:
+        ```
+        $search move object
+        ```
+        """
         search_text = " ".join(args)
         query = get_search_url(search_text)
         await ctx.send(

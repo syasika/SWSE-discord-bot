@@ -2,11 +2,13 @@ import discord
 from discord.ext import commands
 
 
-class Ping(commands.Cog):
+class Ping(commands.Cog, name="Ping"):
     """Recieves ping commands"""
 
-    def __init__(self, client):
-        self.client = client
+    COG_EMOJI = "🏓"
+
+    def __init__(self, bot: commands.Bot):
+        self.bot = bot
 
     @commands.Cog.listener()
     async def on_ready(self):
@@ -14,9 +16,16 @@ class Ping(commands.Cog):
 
     @commands.command()
     async def ping(self, ctx):
-        """Checks for a response from the bot"""
-        await ctx.send("Pong!")
+        """A command which simply acknowledges the user's ping.
+
+        Usage:
+
+        ```
+        $ping
+        ```
+        """
+        await ctx.send(f"Pong! (Latency: {round(self.bot.latency * 1000)}ms)")
 
 
-def setup(client):
-    client.add_cog(Ping(client))
+def setup(bot):
+    bot.add_cog(Ping(bot))
