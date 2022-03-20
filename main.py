@@ -1,20 +1,40 @@
-from discord.ext import commands
+from nextcord.ext import commands
 import os
-from dotenv import load_dotenv
+import nextcord
+import config
 
-load_dotenv()
+# allows privledged intents for monitoring members joining, roles editing, and role assignments
+# these need to be enabled in the developer portal as well
+intents = nextcord.Intents.default()
 
-client = commands.Bot(command_prefix="$")
+# To enable guild intents:
+# intents.guilds = True
+
+# To enable member intents:
+# intents.members = True
+
+# Set custom status to "Listening to ?help"
+activity = nextcord.Activity(
+    type=nextcord.ActivityType.listening, name=f"{config.BOT_PREFIX}help"
+)
+
+bot = commands.Bot(
+    commands.when_mentioned_or(config.BOT_PREFIX),
+    intents=intents,
+    activity=activity,
+)
+
+# Get the modules of all cogs whose directory structure is cogs/<module_name>/cog.py
+for folder in os.listdir("cogs"):
+    if os.path.exists(os.path.join("cogs", folder, "cog.py")):
+        bot.load_extension(f"cogs.{folder}.cog")
 
 
-@client.event
+@bot.event
 async def on_ready():
-    print("We have logged in as {0.user}".format(client))
+    """When discord is connected"""
+    print(f"{bot.user.name} has connected to Discord!")
 
 
-for filename in os.listdir("./cogs"):
-    if filename.endswith(".py"):
-        client.load_extension(f"cogs.{filename[:-3]}")
-
-
-client.run(os.getenv("TOKEN"))
+# Run Discord bot
+bot.run(config.DISCORD_TOKEN)

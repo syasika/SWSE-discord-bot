@@ -1,5 +1,6 @@
-import discord
-from discord.ext import commands
+import nextcord
+from nextcord.ext import commands
+from utils.embedder import embed_success
 
 
 class Ping(commands.Cog, name="Ping"):
@@ -14,7 +15,7 @@ class Ping(commands.Cog, name="Ping"):
     async def on_ready(self):
         print("Ping command ready")
 
-    @commands.command()
+    @commands.command(name="ping")
     async def ping(self, ctx):
         """A command which simply acknowledges the user's ping.
 
@@ -24,7 +25,12 @@ class Ping(commands.Cog, name="Ping"):
         $ping
         ```
         """
-        await ctx.send(f"Pong! (Latency: {round(self.bot.latency * 1000)}ms)")
+        await ctx.send(
+            embed=embed_success(
+                title="Pong!",
+                description=f"(Latency: {round(self.bot.latency * 1000)}ms)",
+            )
+        )
 
 
 def setup(bot):

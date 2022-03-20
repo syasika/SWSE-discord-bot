@@ -1,6 +1,8 @@
-import discord
-from discord.ext import commands
+from discord import Embed
+import nextcord
+from nextcord.ext import commands
 import d20
+from utils.embedder import embed_success, embed_error
 
 
 class MyStringifier(d20.SimpleStringifier):
@@ -21,7 +23,7 @@ class MyStringifier(d20.SimpleStringifier):
         )
 
 
-class Roll(commands.Cog):
+class Roll(commands.Cog, name="Roll"):
     """Recieves dice commands"""
 
     COG_EMOJI = "🎲"
@@ -33,7 +35,7 @@ class Roll(commands.Cog):
     async def on_ready(self):
         print("Roll command ready")
 
-    @commands.command()
+    @commands.command(name="roll")
     async def roll(self, ctx, arg):
         """Rolls a given amount of dice in the form _d_
 
@@ -42,8 +44,18 @@ class Roll(commands.Cog):
         $roll 1d10+5
         ```
         """
-        result = get_roll(arg)
-        await ctx.send(result)
+        try:
+            result = get_roll(arg)
+            await ctx.send(embed=embed_success(result))
+
+        except Exception as e:
+            print(f"Error during roll {arg}: {str(e)}")
+            await ctx.send(
+                "https://tenor.com/view/parks-and-rec-who-broke-gif-23407071"
+            )
+            await ctx.send(
+                embed=embed_error("Don't know what you did, but you've been reported!")
+            )
 
 
 def setup(client):
@@ -52,11 +64,6 @@ def setup(client):
 
 def get_roll(dice_roll_text):
     text = ""
-    try:
-        roll = d20.roll(dice_roll_text, stringifier=MyStringifier())
-        # print(roll)
-        text = f"🎲{roll}"
-    except:
-        return "https://tenor.com/view/dude-goddamnit-cartman-you-broke-it-kyle-broflovski-stan-marsh-south-park-s6e4-gif-22001761"
-
+    roll = d20.roll(dice_roll_text, stringifier=MyStringifier())
+    text = f"🎲{roll}"
     return f"{text}"

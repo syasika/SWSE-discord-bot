@@ -1,9 +1,10 @@
-import discord
-from discord.ext import commands
+import nextcord
+from nextcord.ext import commands
 import urllib.parse
+from utils.embedder import embed_success
 
 
-class Search(commands.Cog):
+class Search(commands.Cog, name="Search"):
     """Recieves swse search commands"""
 
     COG_EMOJI = "🕵️"
@@ -15,7 +16,7 @@ class Search(commands.Cog):
     async def on_ready(self):
         print("Search command ready")
 
-    @commands.command()
+    @commands.command(name="search")
     async def search(self, ctx, *args):
         """Generates SWSE wiki search link with your search criteria
 
@@ -27,7 +28,9 @@ class Search(commands.Cog):
         search_text = " ".join(args)
         query = get_search_url(search_text)
         await ctx.send(
-            f"https://swse.fandom.com/wiki/Special:Search?query={query}&scope=internal"
+            embed=embed_success(
+                f"https://swse.fandom.com/wiki/Special:Search?query={query}&scope=internal"
+            )
         )
 
 
