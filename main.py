@@ -14,9 +14,7 @@ intents = nextcord.Intents.default()
 # intents.members = True
 
 # Set custom status to "Listening to ?help"
-activity = nextcord.Activity(
-    type=nextcord.ActivityType.listening, name=f"{config.BOT_PREFIX}help"
-)
+activity = nextcord.Activity(type=nextcord.ActivityType.listening, name=f"the force")
 
 bot = commands.Bot(
     commands.when_mentioned_or(config.BOT_PREFIX),
