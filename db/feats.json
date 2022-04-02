@@ -1,0 +1,3612 @@
+[
+  {
+    "name": "A Few Maneuvers",
+    "prerequisites": "Dodge, Vehicular Combat",
+    "description": "Ref Def +2 in Colossal or smaller vehicle, if projectile misses by 5",
+    "jedi": false,
+    "noble": false,
+    "scoundrel": false,
+    "scout": false,
+    "soldier": false
+  },
+  {
+    "name": "Accelerated Strike",
+    "prerequisites": "BAB +6",
+    "description": "Once per encounter, full attack as standard action",
+    "jedi": true,
+    "noble": false,
+    "scoundrel": false,
+    "scout": false,
+    "soldier": true
+  },
+  {
+    "name": "Acrobatic Ally",
+    "prerequisites": "Dex 13, Str 13, trained in Acrobatics",
+    "description": "hoist or toss ally 2sq on DC20 Acrobatics as stan, free for ally, your turn ends",
+    "jedi": false,
+    "noble": false,
+    "scoundrel": true,
+    "scout": false,
+    "soldier": false
+  },
+  {
+    "name": "Acrobatic Dodge",
+    "prerequisites": "Dex 13, Mobility*, Skill Focus (Acrobatics)*",
+    "description": "1/enc as reac if melee atk misses you can move into adjacent w/out AoO",
+    "jedi": false,
+    "noble": false,
+    "scoundrel": true,
+    "scout": false,
+    "soldier": false
+  },
+  {
+    "name": "Acrobatic Strike",
+    "prerequisites": "Trained in Acrobatics",
+    "description": "Gain +2 on next attack against opponent you tumble past",
+    "jedi": true,
+    "noble": false,
+    "scoundrel": false,
+    "scout": false,
+    "soldier": false
+  },
+  {
+    "name": "Adaptable Talent",
+    "prerequisites": null,
+    "description": "Choose talent from your classes, and swap that talent 1/day w/6 hrs rest",
+    "jedi": false,
+    "noble": false,
+    "scoundrel": false,
+    "scout": false,
+    "soldier": false
+  },
+  {
+    "name": "Advantageous Attack",
+    "prerequisites": "BAB +1",
+    "description": "if opponent has not yet acted, add full heroic level to damage",
+    "jedi": false,
+    "noble": false,
+    "scoundrel": true,
+    "scout": true,
+    "soldier": false
+  },
+  {
+    "name": "Advantageous Cover",
+    "prerequisites": "Trained in Stealth",
+    "description": "when you have cover, take no damage from area attacks",
+    "jedi": false,
+    "noble": false,
+    "scoundrel": true,
+    "scout": true,
+    "soldier": true
+  },
+  {
+    "name": "Aiming Accuracy",
+    "prerequisites": "Droid, PB Shot, Precise Shot, proficient",
+    "description": "if aim as full-round gain +5 atk against target if remains in LOS",
+    "jedi": false,
+    "noble": false,
+    "scoundrel": false,
+    "scout": false,
+    "soldier": false
+  },
+  {
+    "name": "Ample Foraging",
+    "prerequisites": "Ewok",
+    "description": "Basic Survival of Survival, each gets +2 Fort Def until start next day",
+    "jedi": false,
+    "noble": false,
+    "scoundrel": false,
+    "scout": false,
+    "soldier": false
+  },
+  {
+    "name": "Angled Throw",
+    "prerequisites": "Dex 13",
+    "description": "if Atk exceeds Ref Def 15, ignore cover and improved cover",
+    "jedi": false,
+    "noble": false,
+    "scoundrel": false,
+    "scout": false,
+    "soldier": true
+  },
+  {
+    "name": "Anointed Hunter",
+    "prerequisites": "Nelvaanian species",
+    "description": "if end move 2 sq from start +1 Atk with thrown weapons",
+    "jedi": false,
+    "noble": false,
+    "scoundrel": false,
+    "scout": false,
+    "soldier": false
+  },
+  {
+    "name": "Aquatic Specialists (team feat)",
+    "prerequisites": "Trained in Swim",
+    "description": "+3 Swim & +1 each ally w/feat w/in 12 sq (max +7), swim half spd as move",
+    "jedi": false,
+    "noble": false,
+    "scoundrel": false,
+    "scout": false,
+    "soldier": false
+  },
+  {
+    "name": "Armor Proficiency (heavy)",
+    "prerequisites": "AP light, AP medium",
+    "description": "no penalty or armor check from armor",
+    "jedi": false,
+    "noble": false,
+    "scoundrel": false,
+    "scout": true,
+    "soldier": true
+  },
+  {
+    "name": "Armor Proficiency (light)",
+    "prerequisites": null,
+    "description": "no penalty or armor check from light armor",
+    "jedi": false,
+    "noble": true,
+    "scoundrel": false,
+    "scout": true,
+    "soldier": false
+  },
+  {
+    "name": "Armor Proficiency (medium)",
+    "prerequisites": "AP light",
+    "description": "no penalty or armor check from light or medium armor",
+    "jedi": false,
+    "noble": false,
+    "scoundrel": false,
+    "scout": true,
+    "soldier": false
+  },
+  {
+    "name": "Artillery Shot",
+    "prerequisites": "proficient with weapon",
+    "description": "affect +2 sq with burst or splash at further than PB range",
+    "jedi": false,
+    "noble": false,
+    "scoundrel": false,
+    "scout": false,
+    "soldier": true
+  },
+  {
+    "name": "Ascension Specialists (team feat)",
+    "prerequisites": "Trained in Climb",
+    "description": "+3 Climb & +1 each ally w/feat w/in 12 sq (max +7), climb half spd as move",
+    "jedi": false,
+    "noble": false,
+    "scoundrel": false,
+    "scout": false,
+    "soldier": false
+  },
+  {
+    "name": "Assault",
+    "prerequisites": "Double Atk or Dual Weapon I, BAB +6",
+    "description": "spend FP to make 2 Atk as stan action not full",
+    "jedi": false,
+    "noble": false,
+    "scoundrel": false,
+    "scout": false,
+    "soldier": false
+  },
+  {
+    "name": "Assured Attack",
+    "prerequisites": null,
+    "description": "reroll lowest damage die if roll multiple dice, must take reroll",
+    "jedi": true,
+    "noble": false,
+    "scoundrel": false,
+    "scout": false,
+    "soldier": true
+  },
+  {
+    "name": "Attack Combo (Fire & Strike)",
+    "prerequisites": "BAB +9, Atk Combo (Melee) & (Ranged)",
+    "description": "if hit single target with 2 consecutive atks in same turn, additional atks +1 die dam",
+    "jedi": false,
+    "noble": false,
+    "scoundrel": false,
+    "scout": false,
+    "soldier": true
+  },
+  {
+    "name": "Attack Combo (Melee)",
+    "prerequisites": "BAB +3",
+    "description": "if hit single target with 2 consecutive melee or unarmed atks in same turn, additional atks +1 die dam",
+    "jedi": true,
+    "noble": false,
+    "scoundrel": false,
+    "scout": false,
+    "soldier": true
+  },
+  {
+    "name": "Attack Combo (Ranged)",
+    "prerequisites": "BAB +3",
+    "description": "if hit single target with 2 consecutive ranged atks in same turn, additional atks +1 die dam",
+    "jedi": false,
+    "noble": false,
+    "scoundrel": true,
+    "scout": true,
+    "soldier": true
+  },
+  {
+    "name": "Autofire Assault",
+    "prerequisites": "Weapon Focus",
+    "description": "autofire penalty -2 if autofired to same target last round, +1 die dam",
+    "jedi": false,
+    "noble": false,
+    "scoundrel": false,
+    "scout": false,
+    "soldier": true
+  },
+  {
+    "name": "Autofire Sweep",
+    "prerequisites": "Weapon Focus",
+    "description": "autofire as 6sq cone",
+    "jedi": false,
+    "noble": false,
+    "scoundrel": false,
+    "scout": false,
+    "soldier": true
+  },
+  {
+    "name": "Bad Feeling",
+    "prerequisites": null,
+    "description": "extra move action in surprise round even if not surprised",
+    "jedi": false,
+    "noble": false,
+    "scoundrel": true,
+    "scout": true,
+    "soldier": false
+  },
+  {
+    "name": "Bantha Herder",
+    "prerequisites": "BAB +1, proficient with weapon",
+    "description": "if dam a Large or smaller creature with a ranged atk compare to Will Def & can move target(s) 1 sq in any\ndirection as free",
+    "jedi": false,
+    "noble": false,
+    "scoundrel": true,
+    "scout": false,
+    "soldier": true
+  },
+  {
+    "name": "Bantha Rush",
+    "prerequisites": "Str 13, BAB +1",
+    "description": "Push opponent 1 square after successful melee attack",
+    "jedi": false,
+    "noble": false,
+    "scoundrel": false,
+    "scout": false,
+    "soldier": true
+  },
+  {
+    "name": "Battering Attack",
+    "prerequisites": "Bantha Rush, Trip",
+    "description": "can knock target prone if you move target with Bantha Rush",
+    "jedi": true,
+    "noble": false,
+    "scoundrel": false,
+    "scout": false,
+    "soldier": true
+  },
+  {
+    "name": "Binary Mind",
+    "prerequisites": "Cerean",
+    "description": "enemy must roll mind-affecting effects twice & keep lower",
+    "jedi": false,
+    "noble": false,
+    "scoundrel": false,
+    "scout": false,
+    "soldier": false
+  },
+  {
+    "name": "Biotech Specialist",
+    "prerequisites": "Trained in Mechanics",
+    "description": "modify a biotech item to give a special trait",
+    "jedi": false,
+    "noble": true,
+    "scoundrel": true,
+    "scout": false,
+    "soldier": false
+  },
+  {
+    "name": "Biotech Surgery",
+    "prerequisites": "Trained in Treat Injury",
+    "description": "install biotech prosthesis",
+    "jedi": false,
+    "noble": true,
+    "scoundrel": false,
+    "scout": false,
+    "soldier": false
+  },
+  {
+    "name": "Blaster Barrage",
+    "prerequisites": "Coordinated Attack",
+    "description": "+2 Atk to allies with autofire if you're successful with autofire",
+    "jedi": false,
+    "noble": false,
+    "scoundrel": false,
+    "scout": false,
+    "soldier": true
+  },
+  {
+    "name": "Bone Crusher",
+    "prerequisites": "Crush*",
+    "description": "When you deal damage to grappled target, move it -1 down track",
+    "jedi": false,
+    "noble": false,
+    "scoundrel": false,
+    "scout": false,
+    "soldier": true
+  },
+  {
+    "name": "Bothan Will",
+    "prerequisites": "Bothan",
+    "description": "if attack v. Will Def fails, gain +2 Will Def until start of your next turn",
+    "jedi": false,
+    "noble": false,
+    "scoundrel": false,
+    "scout": false,
+    "soldier": false
+  },
+  {
+    "name": "Bowcaster Marksman",
+    "prerequisites": "Wookiee",
+    "description": "when spend Force Point to atk w/bowcaster, add result to dam too",
+    "jedi": false,
+    "noble": false,
+    "scoundrel": false,
+    "scout": false,
+    "soldier": false
+  },
+  {
+    "name": "Brilliant Defense",
+    "prerequisites": "Int 13",
+    "description": "1/enc add Int mod to Ref Def as reac until your next turn",
+    "jedi": true,
+    "noble": true,
+    "scoundrel": false,
+    "scout": false,
+    "soldier": false
+  },
+  {
+    "name": "Brink of Death",
+    "prerequisites": null,
+    "description": "if you deal damage that kills, can reduce to 0 hp instead",
+    "jedi": true,
+    "noble": false,
+    "scoundrel": false,
+    "scout": false,
+    "soldier": true
+  },
+  {
+    "name": "Burst Fire",
+    "prerequisites": "WP heavy, proficient w/weapon",
+    "description": "-5 on autofire Atk to gain +2 dice dam, 5 shots, if no Str 13 -10 Atk",
+    "jedi": false,
+    "noble": false,
+    "scoundrel": false,
+    "scout": false,
+    "soldier": false
+  },
+  {
+    "name": "Burst of Speed",
+    "prerequisites": "Trained in Endurance",
+    "description": "move action to move twice speed, -1 down track at end",
+    "jedi": true,
+    "noble": false,
+    "scoundrel": true,
+    "scout": true,
+    "soldier": true
+  },
+  {
+    "name": "Careful Shot",
+    "prerequisites": "BAB +2, Point Blank Shot",
+    "description": "if you aim, +1 Atk",
+    "jedi": false,
+    "noble": false,
+    "scoundrel": false,
+    "scout": true,
+    "soldier": true
+  },
+  {
+    "name": "Channel Rage",
+    "prerequisites": "Rage",
+    "description": "1/day expend use of Rage for +5 to Will Def for enc",
+    "jedi": false,
+    "noble": false,
+    "scoundrel": false,
+    "scout": false,
+    "soldier": false
+  },
+  {
+    "name": "Charging Fire",
+    "prerequisites": "BAB +4",
+    "description": "make ranged Atk at end of charge, -2 to Ref Def",
+    "jedi": false,
+    "noble": false,
+    "scoundrel": false,
+    "scout": false,
+    "soldier": true
+  },
+  {
+    "name": "Charging Fire + Dodge",
+    "prerequisites": "Combo, requires Dodge",
+    "description": "Ref Def penalty -1 when making a ranged attack at end of charge",
+    "jedi": false,
+    "noble": false,
+    "scoundrel": false,
+    "scout": false,
+    "soldier": false
+  },
+  {
+    "name": "Clawed Subspecies",
+    "prerequisites": "Quarren",
+    "description": "gain claws 1d6 dam",
+    "jedi": false,
+    "noble": false,
+    "scoundrel": false,
+    "scout": false,
+    "soldier": false
+  },
+  {
+    "name": "Cleave",
+    "prerequisites": "Str 13, Power Attack",
+    "description": "extra melee Atk after dropping target, within reach, same BAB",
+    "jedi": true,
+    "noble": false,
+    "scoundrel": false,
+    "scout": false,
+    "soldier": true
+  },
+  {
+    "name": "Close Combat Escape",
+    "prerequisites": "Trained in Acrobatics",
+    "description": "if escape grapple, swif action for single melee atk v. grappler",
+    "jedi": true,
+    "noble": false,
+    "scoundrel": true,
+    "scout": false,
+    "soldier": false
+  },
+  {
+    "name": "Collateral Damage",
+    "prerequisites": "Rapid Shot, BAB +6",
+    "description": "with Rapid Shot make a 2nd atk at -2 w/in 2sq of target, deal half dam",
+    "jedi": false,
+    "noble": false,
+    "scoundrel": true,
+    "scout": false,
+    "soldier": true
+  },
+  {
+    "name": "Combat Reflexes",
+    "prerequisites": null,
+    "description": "gain additional Attacks of Opportunity = Dex mod & flat-footed",
+    "jedi": true,
+    "noble": false,
+    "scoundrel": false,
+    "scout": false,
+    "soldier": true
+  },
+  {
+    "name": "Combat Trickery",
+    "prerequisites": "Trained in Deception",
+    "description": "spend 2 swif on same turn for Deception v. Will Def for target to be flat-footed v. your next atk, spend FP for\nuntil end of enc",
+    "jedi": false,
+    "noble": true,
+    "scoundrel": true,
+    "scout": false,
+    "soldier": false
+  },
+  {
+    "name": "Conditioning",
+    "prerequisites": "Str 13, Con 13",
+    "description": "reroll Str & Con skills trained in, mtr & 1/encounter add Str to Fort",
+    "jedi": false,
+    "noble": false,
+    "scoundrel": false,
+    "scout": true,
+    "soldier": true
+  },
+  {
+    "name": "Confident Success",
+    "prerequisites": "Bothan",
+    "description": "when successfully use Learn Secret Info gain Force Point up to 3 & max",
+    "jedi": false,
+    "noble": false,
+    "scoundrel": false,
+    "scout": false,
+    "soldier": false
+  },
+  {
+    "name": "Controlled Rage",
+    "prerequisites": "Rage",
+    "description": "enter Rage as free action, end 1 round after you want to",
+    "jedi": false,
+    "noble": false,
+    "scoundrel": false,
+    "scout": false,
+    "soldier": false
+  },
+  {
+    "name": "Coordinated Attack",
+    "prerequisites": "BAB +2",
+    "description": "Automatic success with aid another at point blank range",
+    "jedi": false,
+    "noble": false,
+    "scoundrel": false,
+    "scout": false,
+    "soldier": true
+  },
+  {
+    "name": "Coordinated Barrage",
+    "prerequisites": "BAB +5, Coordinated Attack",
+    "description": "when aid for every 3 over Ref Def +1 die dam (+5 max)",
+    "jedi": false,
+    "noble": false,
+    "scoundrel": false,
+    "scout": false,
+    "soldier": true
+  },
+  {
+    "name": "Cornered",
+    "prerequisites": null,
+    "description": "when threatened & unable to withdraw +2 Atk against opponents",
+    "jedi": false,
+    "noble": true,
+    "scoundrel": true,
+    "scout": true,
+    "soldier": false
+  },
+  {
+    "name": "Covert Operatives (team feat)",
+    "prerequisites": "Trained in Stealth",
+    "description": "+3 Stealth & +1 each ally w/feat w/in 12 sq (max +7), when moving your spd or more penalties reduced by 2",
+    "jedi": false,
+    "noble": false,
+    "scoundrel": false,
+    "scout": false,
+    "soldier": false
+  },
+  {
+    "name": "Critical Strike",
+    "prerequisites": "BAB +9, melee weapon, Weapon Focus",
+    "description": "2 swif for crit range +1 on next melee Atk, no other actions before",
+    "jedi": true,
+    "noble": false,
+    "scoundrel": false,
+    "scout": false,
+    "soldier": true
+  },
+  {
+    "name": "Crossfire",
+    "prerequisites": "PB Shot, Precise Shot, BAB +6",
+    "description": "1/round, if you miss v. soft cover, make attack v. soft cover",
+    "jedi": false,
+    "noble": false,
+    "scoundrel": true,
+    "scout": false,
+    "soldier": true
+  },
+  {
+    "name": "Crush",
+    "prerequisites": "BAB +1, Pin",
+    "description": "deal unarmed damage to a pinned opponent",
+    "jedi": false,
+    "noble": false,
+    "scoundrel": false,
+    "scout": false,
+    "soldier": true
+  },
+  {
+    "name": "Cunning Attack",
+    "prerequisites": null,
+    "description": "+2 Atk v. flat-footed or any denied Dex to Ref Def",
+    "jedi": false,
+    "noble": false,
+    "scoundrel": true,
+    "scout": true,
+    "soldier": false
+  },
+  {
+    "name": "Cut the Red Tape",
+    "prerequisites": "Trained in Knowledge (bureaucracy)",
+    "description": "Knowledge (bureaucracy) replaces Gather Info & considered trained",
+    "jedi": false,
+    "noble": true,
+    "scoundrel": false,
+    "scout": false,
+    "soldier": false
+  },
+  {
+    "name": "Cybernetic Surgery",
+    "prerequisites": "Trained in Treat Injury",
+    "description": "install cybernetic prosthesis",
+    "jedi": false,
+    "noble": true,
+    "scoundrel": false,
+    "scout": false,
+    "soldier": false
+  },
+  {
+    "name": "Damage Conversion",
+    "prerequisites": "Droid, Dex 13",
+    "description": "if dam from atk (not area, ion, or Force) equals or exceeds thresh can take 10 dam & not move down track\n(each additional use increases dam by 5)",
+    "jedi": false,
+    "noble": false,
+    "scoundrel": false,
+    "scout": false,
+    "soldier": false
+  },
+  {
+    "name": "Darkness Dweller",
+    "prerequisites": "Sullustan",
+    "description": "enemy that makes Stealth check w/in 10 sq of you is -2",
+    "jedi": false,
+    "noble": false,
+    "scoundrel": false,
+    "scout": false,
+    "soldier": false
+  },
+  {
+    "name": "Deadeye",
+    "prerequisites": "BAB +4, PB Shot, Precise Shot",
+    "description": "if you aim, deal extra die damage",
+    "jedi": false,
+    "noble": false,
+    "scoundrel": true,
+    "scout": true,
+    "soldier": true
+  },
+  {
+    "name": "Deadly Sniper",
+    "prerequisites": "Sniper, trained in Stealth",
+    "description": "if target is unaware of you +2 Atk & +1 die dam on first attack",
+    "jedi": false,
+    "noble": false,
+    "scoundrel": false,
+    "scout": true,
+    "soldier": true
+  },
+  {
+    "name": "Deceptive Drop",
+    "prerequisites": "Trained in Initiative",
+    "description": "in surprise rnd if you dam flat-foot opp they are prone if over FortDef",
+    "jedi": false,
+    "noble": false,
+    "scoundrel": true,
+    "scout": false,
+    "soldier": false
+  },
+  {
+    "name": "Deep Sight",
+    "prerequisites": "Quarren",
+    "description": "gain darkvision",
+    "jedi": false,
+    "noble": false,
+    "scoundrel": false,
+    "scout": false,
+    "soldier": false
+  },
+  {
+    "name": "Deft Charge",
+    "prerequisites": null,
+    "description": "after you charge, you may take swif, reac & free actions",
+    "jedi": true,
+    "noble": false,
+    "scoundrel": false,
+    "scout": true,
+    "soldier": true
+  },
+  {
+    "name": "Demoralizing Strike",
+    "prerequisites": "Cha 13",
+    "description": "when you dam target with AoO = free Persuasion to intimidate them",
+    "jedi": false,
+    "noble": true,
+    "scoundrel": false,
+    "scout": false,
+    "soldier": false
+  },
+  {
+    "name": "Desperate Gambit",
+    "prerequisites": null,
+    "description": "1/turn if miss Atk, reroll w/ -2 RefDef until end next turn, nat 1=-5, mtr",
+    "jedi": false,
+    "noble": false,
+    "scoundrel": true,
+    "scout": false,
+    "soldier": false
+  },
+  {
+    "name": "Destructive Force",
+    "prerequisites": null,
+    "description": "deal 1 die dam to all targets & allies adjacent to a vehicle or object you reduce to 0 hp or equal or exceed",
+    "jedi": false,
+    "noble": false,
+    "scoundrel": false,
+    "scout": true,
+    "soldier": true
+  },
+  {
+    "name": "Devastating Bellow",
+    "prerequisites": "Ithorian",
+    "description": "tbherleloswh atk deals 4d6 dam",
+    "jedi": false,
+    "noble": false,
+    "scoundrel": false,
+    "scout": false,
+    "soldier": false
+  },
+  {
+    "name": "Disabler",
+    "prerequisites": "proficient with weapon",
+    "description": "Ion Grenade 3sq burst, Ion Pistol dam dice d8, Ion Rifle is accurate",
+    "jedi": false,
+    "noble": true,
+    "scoundrel": true,
+    "scout": true,
+    "soldier": true
+  },
+  {
+    "name": "Disarming Charm",
+    "prerequisites": "Sullustan",
+    "description": "when you successfully change attitude, +2 Deception & Persuasion v. target for next 24 hours",
+    "jedi": false,
+    "noble": false,
+    "scoundrel": false,
+    "scout": false,
+    "soldier": false
+  },
+  {
+    "name": "Distracting Droid",
+    "prerequisites": "Droid",
+    "description": "as stan action, Persuasion v. Will Def of all w/in 6 sq & enemy loses 1 move & if by 10 or more enemy flat-",
+    "jedi": false,
+    "noble": false,
+    "scoundrel": false,
+    "scout": false,
+    "soldier": false
+  },
+  {
+    "name": "Disturbing Presence",
+    "prerequisites": "trained in Deception",
+    "description": "fDoCot e1d5 Deception check to \"tumble\" through threatened area, move x2",
+    "jedi": false,
+    "noble": true,
+    "scoundrel": true,
+    "scout": false,
+    "soldier": false
+  },
+  {
+    "name": "Dive for Cover",
+    "prerequisites": "Trained in Jump",
+    "description": "1/turn as reac when targeted by ranged atk make horizontal Jump to gain cover & land prone",
+    "jedi": true,
+    "noble": false,
+    "scoundrel": false,
+    "scout": true,
+    "soldier": true
+  },
+  {
+    "name": "Dodge",
+    "prerequisites": "Dex 13",
+    "description": "+1 Ref Def against selected target",
+    "jedi": true,
+    "noble": false,
+    "scoundrel": true,
+    "scout": true,
+    "soldier": false
+  },
+  {
+    "name": "Dodge + Charging Fire",
+    "prerequisites": "Combo, requires Charging Fire",
+    "description": "Ref Def penalty -1 when making a ranged attack at end of charge",
+    "jedi": false,
+    "noble": false,
+    "scoundrel": false,
+    "scout": false,
+    "soldier": false
+  },
+  {
+    "name": "Dodge + Running Attack",
+    "prerequisites": "Combo, requires Running Attack",
+    "description": "add Dodge bonus to Ref Def v. Atk of opp",
+    "jedi": false,
+    "noble": false,
+    "scoundrel": false,
+    "scout": false,
+    "soldier": false
+  },
+  {
+    "name": "Double Attack",
+    "prerequisites": "BAB +6, proficient with weapon",
+    "description": "extra Atk during full attack, -5 penalty all attacks, per weapon group",
+    "jedi": true,
+    "noble": false,
+    "scoundrel": false,
+    "scout": false,
+    "soldier": true
+  },
+  {
+    "name": "Dreadful Countenance",
+    "prerequisites": "Cha 13, Sith",
+    "description": "Persuasion or Use the Force for fear effect, may reroll, mtr",
+    "jedi": false,
+    "noble": false,
+    "scoundrel": false,
+    "scout": false,
+    "soldier": false
+  },
+  {
+    "name": "Dreadful Rage",
+    "prerequisites": "BAB +1, Rage species trait",
+    "description": "rage bonus to Atk and dam increases to +5",
+    "jedi": false,
+    "noble": false,
+    "scoundrel": false,
+    "scout": false,
+    "soldier": false
+  },
+  {
+    "name": "Droid Focus",
+    "prerequisites": "Trained in Mechanics & Use Computer",
+    "description": "+1 to Deception, Mechanics, Perception, Persuasion, Use Computer on or against droid & +1 to all Def v.\nattacks & skill checks made by droids",
+    "jedi": false,
+    "noble": false,
+    "scoundrel": false,
+    "scout": false,
+    "soldier": false
+  },
+  {
+    "name": "Droid Hunter",
+    "prerequisites": "proficient with weapon",
+    "description": "+2 dam v. droids, +4 dam v, droids with ion",
+    "jedi": false,
+    "noble": false,
+    "scoundrel": true,
+    "scout": true,
+    "soldier": true
+  },
+  {
+    "name": "Droid Shield Mastery",
+    "prerequisites": "Droid, equipped with shield generator",
+    "description": "automatically restore SR by 5 & with only 2 swif actions",
+    "jedi": false,
+    "noble": false,
+    "scoundrel": false,
+    "scout": false,
+    "soldier": false
+  },
+  {
+    "name": "Droidcraft",
+    "prerequisites": "Trained in Mechanics",
+    "description": "repair droids in 10 minutes not 1 hour",
+    "jedi": false,
+    "noble": false,
+    "scoundrel": true,
+    "scout": true,
+    "soldier": false
+  },
+  {
+    "name": "Dual Weapon Mastery I",
+    "prerequisites": "Dex 13, BAB +1",
+    "description": "-5 penalty when attacking with two weapons or a double weapon",
+    "jedi": true,
+    "noble": false,
+    "scoundrel": false,
+    "scout": false,
+    "soldier": true
+  },
+  {
+    "name": "Dual Weapon Mastery I + Quick\nDraw",
+    "prerequisites": "Combo, requires Quick Draw",
+    "description": "draw or holster 2 weapons as single swif action",
+    "jedi": false,
+    "noble": false,
+    "scoundrel": false,
+    "scout": false,
+    "soldier": false
+  },
+  {
+    "name": "Dual Weapon Mastery II",
+    "prerequisites": "Dex 15, BAB +6, Dual Weapon Mastery I",
+    "description": "-2 penalty when attacking with two weapons or a double weapon",
+    "jedi": true,
+    "noble": false,
+    "scoundrel": false,
+    "scout": false,
+    "soldier": true
+  },
+  {
+    "name": "Dual Weapon Mastery III",
+    "prerequisites": "Dex 17, BAB +11, Dual Mastery I, II",
+    "description": "no penalty when attacking with two weapons or a double weapon",
+    "jedi": true,
+    "noble": false,
+    "scoundrel": false,
+    "scout": false,
+    "soldier": true
+  },
+  {
+    "name": "Duck and Cover",
+    "prerequisites": "Trained in Stealth",
+    "description": "if area attack misses 1/turn you can move 2 sq as a reac, no atk opp",
+    "jedi": false,
+    "noble": false,
+    "scoundrel": true,
+    "scout": false,
+    "soldier": false
+  },
+  {
+    "name": "Echani Training",
+    "prerequisites": "Dex 13, Martial Arts I",
+    "description": "dam bonus from Str x2 if make only one unarmed Atk, 1/enc when deal dam, make unarmed Atk to knock\nprone, w/Expertise talent w/crit target is knocked prone if not more than 1 size larger",
+    "jedi": false,
+    "noble": false,
+    "scoundrel": false,
+    "scout": false,
+    "soldier": false
+  },
+  {
+    "name": "Echani Training",
+    "prerequisites": "Dex 13, Martial Arts I",
+    "description": "dam bonus from Str x2 if make only one unarmed Atk, 1/enc when deal dam, make unarmed Atk to knock",
+    "jedi": false,
+    "noble": false,
+    "scoundrel": false,
+    "scout": false,
+    "soldier": false
+  },
+  {
+    "name": "Elder's Knowledge",
+    "prerequisites": "SF Knowledge (social sciences) or (galactic\nlore)",
+    "description": "1pr/eonce replace Wisdom or Wisdom-related check with Know (social science) or (galactic lore)",
+    "jedi": true,
+    "noble": true,
+    "scoundrel": false,
+    "scout": false,
+    "soldier": false
+  },
+  {
+    "name": "Erratic Target",
+    "prerequisites": "Droid, Dex 13, Dodge, hovering/flying\nlocomotion",
+    "description": "reduce spd by 1 or 2 to increase Dodge +1 or +2, must move 2 sq",
+    "jedi": false,
+    "noble": false,
+    "scoundrel": false,
+    "scout": false,
+    "soldier": false
+  },
+  {
+    "name": "Exotic Weapon Proficiency",
+    "prerequisites": "BAB +1",
+    "description": null,
+    "jedi": false,
+    "noble": true,
+    "scoundrel": false,
+    "scout": false,
+    "soldier": true
+  },
+  {
+    "name": "Experienced Medic",
+    "prerequisites": "Trained in Treat Injury",
+    "description": "perform surgery on number = to Int mod (2 min), check individually",
+    "jedi": false,
+    "noble": true,
+    "scoundrel": false,
+    "scout": false,
+    "soldier": true
+  },
+  {
+    "name": "Expert Briber",
+    "prerequisites": "Cha 13",
+    "description": "reduce Persuasion's Haggle DC by 10",
+    "jedi": false,
+    "noble": true,
+    "scoundrel": true,
+    "scout": false,
+    "soldier": false
+  },
+  {
+    "name": "Expert Droid Repair",
+    "prerequisites": "Trained in Mechanics",
+    "description": "repair droids = to Int mod",
+    "jedi": false,
+    "noble": false,
+    "scoundrel": true,
+    "scout": true,
+    "soldier": false
+  },
+  {
+    "name": "Extra Rage",
+    "prerequisites": "Rage species trait",
+    "description": "rage one extra time a day",
+    "jedi": false,
+    "noble": false,
+    "scoundrel": false,
+    "scout": false,
+    "soldier": false
+  },
+  {
+    "name": "Extra Second Wind",
+    "prerequisites": "Trained in Endurance",
+    "description": "one extra second wind a day, nonheroic can take",
+    "jedi": false,
+    "noble": false,
+    "scoundrel": false,
+    "scout": false,
+    "soldier": false
+  },
+  {
+    "name": "Far Shot",
+    "prerequisites": "Point Blank Shot",
+    "description": "reduces range penalties by one range category, ex. short = PB",
+    "jedi": false,
+    "noble": false,
+    "scoundrel": false,
+    "scout": true,
+    "soldier": true
+  },
+  {
+    "name": "Fast Surge",
+    "prerequisites": null,
+    "description": "catch second wind as free not swif",
+    "jedi": true,
+    "noble": true,
+    "scoundrel": true,
+    "scout": true,
+    "soldier": true
+  },
+  {
+    "name": "Fast Swimmer",
+    "prerequisites": "Mon Calamari",
+    "description": "+2 swim spd",
+    "jedi": false,
+    "noble": false,
+    "scoundrel": false,
+    "scout": false,
+    "soldier": false
+  },
+  {
+    "name": "Fatal Hit",
+    "prerequisites": "Str 13, Dex 13",
+    "description": "if your attack drops target to 0 hp you can kill them even if not over thresh, perform coup-de-grace as stan",
+    "jedi": false,
+    "noble": false,
+    "scoundrel": true,
+    "scout": true,
+    "soldier": true
+  },
+  {
+    "name": "Feat of Strength",
+    "prerequisites": "Str 15",
+    "description": "take 20 on trained Str skill check as full, DC15 Endurance to use again",
+    "jedi": true,
+    "noble": false,
+    "scoundrel": false,
+    "scout": true,
+    "soldier": true
+  },
+  {
+    "name": "Fight Through Pain",
+    "prerequisites": null,
+    "description": "can use Will Def instead of Fort Def to determine thresh",
+    "jedi": true,
+    "noble": true,
+    "scoundrel": true,
+    "scout": false,
+    "soldier": false
+  },
+  {
+    "name": "Flash and Clear",
+    "prerequisites": null,
+    "description": "if damage opponent with burst or splash, gain concealment",
+    "jedi": false,
+    "noble": false,
+    "scoundrel": false,
+    "scout": true,
+    "soldier": true
+  },
+  {
+    "name": "Flawless Pilot",
+    "prerequisites": "Duros",
+    "description": "always keep the better result on a Pilot reroll",
+    "jedi": false,
+    "noble": false,
+    "scoundrel": false,
+    "scout": false,
+    "soldier": false
+  },
+  {
+    "name": "Fl\u00e8che",
+    "prerequisites": "BAB +1",
+    "description": "1/enc when you charge nat 17-20 is a critical",
+    "jedi": false,
+    "noble": true,
+    "scoundrel": false,
+    "scout": false,
+    "soldier": true
+  },
+  {
+    "name": "Fleet-Footed",
+    "prerequisites": "Running Attack",
+    "description": "if move before & after attack increase speed 2 sq",
+    "jedi": false,
+    "noble": false,
+    "scoundrel": true,
+    "scout": false,
+    "soldier": false
+  },
+  {
+    "name": "Flood of Fire",
+    "prerequisites": "proficient with weapon",
+    "description": "with autofire targets lose all dodge or deflection bonuses",
+    "jedi": false,
+    "noble": false,
+    "scoundrel": false,
+    "scout": false,
+    "soldier": true
+  },
+  {
+    "name": "Flurry",
+    "prerequisites": "Dex 13",
+    "description": "+2 Atk melee with light weapons or lightsabers, -5 Ref Def",
+    "jedi": true,
+    "noble": true,
+    "scoundrel": false,
+    "scout": false,
+    "soldier": true
+  },
+  {
+    "name": "Focused Rage",
+    "prerequisites": "Rage, Controlled Rage",
+    "description": "can use concentration skills with Rage at -5 penalty",
+    "jedi": false,
+    "noble": false,
+    "scoundrel": false,
+    "scout": false,
+    "soldier": false
+  },
+  {
+    "name": "Follow Through",
+    "prerequisites": null,
+    "description": "if reduce opp to 0 hp with melee atk can move your speed, with Cleave can move 1st",
+    "jedi": false,
+    "noble": false,
+    "scoundrel": false,
+    "scout": false,
+    "soldier": false
+  },
+  {
+    "name": "Force Boon",
+    "prerequisites": "Force Sensitivity",
+    "description": "gain 3 extra Force Points per level",
+    "jedi": false,
+    "noble": false,
+    "scoundrel": false,
+    "scout": false,
+    "soldier": false
+  },
+  {
+    "name": "Force of Personality",
+    "prerequisites": "Cha 13",
+    "description": "can use either Wis or Cha mod to determine Will Def",
+    "jedi": true,
+    "noble": true,
+    "scoundrel": true,
+    "scout": false,
+    "soldier": false
+  },
+  {
+    "name": "Force Readiness",
+    "prerequisites": null,
+    "description": "spend Force Points as free action out of turn",
+    "jedi": true,
+    "noble": false,
+    "scoundrel": false,
+    "scout": false,
+    "soldier": false
+  },
+  {
+    "name": "Force Regimen Mastery",
+    "prerequisites": "Force Sensitivity, trained Use the Force",
+    "description": "Learn a number of Force Regimens = 1 + Wis mod (min one)",
+    "jedi": false,
+    "noble": false,
+    "scoundrel": false,
+    "scout": false,
+    "soldier": false
+  },
+  {
+    "name": "Force Sensitivity",
+    "prerequisites": "Non-droid",
+    "description": "can make Use the Force checks, can select Force talents",
+    "jedi": false,
+    "noble": false,
+    "scoundrel": false,
+    "scout": false,
+    "soldier": false
+  },
+  {
+    "name": "Force Training",
+    "prerequisites": "Force Sensitivity",
+    "description": "Learn a number of Force Powers = 1 + Wis mod (min one)",
+    "jedi": false,
+    "noble": false,
+    "scoundrel": false,
+    "scout": false,
+    "soldier": false
+  },
+  {
+    "name": "Force Training + Improved Disarm",
+    "prerequisites": "Combo, requires Improved Disarm",
+    "description": "gain +5 from Improved Disarm on Use the Force check",
+    "jedi": false,
+    "noble": false,
+    "scoundrel": false,
+    "scout": false,
+    "soldier": false
+  },
+  {
+    "name": "Forceful Blast",
+    "prerequisites": "BAB +1, proficient with weapon",
+    "description": "if dam a Large or smaller creature with a grenade or thermal detonator compare to Fort Def & can move\ntarget(s) 1 sq in any direction as free",
+    "jedi": false,
+    "noble": false,
+    "scoundrel": false,
+    "scout": true,
+    "soldier": true
+  },
+  {
+    "name": "Forceful Recovery",
+    "prerequisites": "Force Training*",
+    "description": "When you use second wind, return a force power already used also",
+    "jedi": false,
+    "noble": false,
+    "scoundrel": false,
+    "scout": false,
+    "soldier": false
+  },
+  {
+    "name": "Forest Stalker",
+    "prerequisites": "Ewok",
+    "description": "always keep the better result on a Stealth reroll",
+    "jedi": false,
+    "noble": false,
+    "scoundrel": false,
+    "scout": false,
+    "soldier": false
+  },
+  {
+    "name": "Fortifying Recovery",
+    "prerequisites": "Con 13",
+    "description": "when you recover gain hp = 2 x Con mod (min 2)",
+    "jedi": false,
+    "noble": false,
+    "scoundrel": false,
+    "scout": true,
+    "soldier": true
+  },
+  {
+    "name": "Friends in Low Places",
+    "prerequisites": "Trained in Gather Information",
+    "description": "to acquire license Gather Info replaces Know (bureaucracy)",
+    "jedi": false,
+    "noble": true,
+    "scoundrel": true,
+    "scout": false,
+    "soldier": false
+  },
+  {
+    "name": "Frightening Cleave",
+    "prerequisites": "BAB +4, Str 13, Cleave, Power Attack",
+    "description": "after use Cleave each enemy w/in 6sq & LOS -1 Ref Def, atk, skill until end of enc, stacks to -5",
+    "jedi": false,
+    "noble": false,
+    "scoundrel": false,
+    "scout": false,
+    "soldier": true
+  },
+  {
+    "name": "Fringe Benefits",
+    "prerequisites": "Rodian",
+    "description": "whenever you buy black market goods reduce multiplier by 2 (min x1)",
+    "jedi": false,
+    "noble": false,
+    "scoundrel": false,
+    "scout": false,
+    "soldier": false
+  },
+  {
+    "name": "Galactic Alliance Military Training",
+    "prerequisites": null,
+    "description": "do not move down track first time in an encounter",
+    "jedi": false,
+    "noble": false,
+    "scoundrel": false,
+    "scout": false,
+    "soldier": true
+  },
+  {
+    "name": "Gearhead",
+    "prerequisites": null,
+    "description": "full = stan, stan = move, move = swif, mult swif = swif, full+ = half -10",
+    "jedi": false,
+    "noble": false,
+    "scoundrel": true,
+    "scout": true,
+    "soldier": false
+  },
+  {
+    "name": "Grab Back",
+    "prerequisites": "Dex 13",
+    "description": "+2 Ref Def v. grab/grapple, if enemy misses you can make grab/grapple v. same",
+    "jedi": false,
+    "noble": false,
+    "scoundrel": false,
+    "scout": false,
+    "soldier": true
+  },
+  {
+    "name": "Grand Army of the Republic",
+    "prerequisites": "proficient with armor worn",
+    "description": "apply armor's Fort Def to Will Def also",
+    "jedi": false,
+    "noble": false,
+    "scoundrel": false,
+    "scout": false,
+    "soldier": true
+  },
+  {
+    "name": "Grapple Resistance",
+    "prerequisites": null,
+    "description": "+5 v. grab or grapple, +5 opposed grapple, +5 all your objects",
+    "jedi": true,
+    "noble": false,
+    "scoundrel": false,
+    "scout": true,
+    "soldier": true
+  },
+  {
+    "name": "Grazing Shot",
+    "prerequisites": "Point Blank Shot",
+    "description": "with ranged atk, target a second creature w/in LOS & 6sq of target, divide dam between both, or no dam to\neither if 2nd atk fails",
+    "jedi": false,
+    "noble": false,
+    "scoundrel": false,
+    "scout": true,
+    "soldier": true
+  },
+  {
+    "name": "Great Cleave",
+    "prerequisites": "Str 13, Cleave, Power Attack, BAB +4",
+    "description": "no limit to cleave attacks per round",
+    "jedi": true,
+    "noble": false,
+    "scoundrel": false,
+    "scout": false,
+    "soldier": true
+  },
+  {
+    "name": "Gungan Weapon Master",
+    "prerequisites": "Gungan",
+    "description": "when spend Force Point to atk w/atlatl or cesta increase dam die by 1 step",
+    "jedi": false,
+    "noble": false,
+    "scoundrel": false,
+    "scout": false,
+    "soldier": false
+  },
+  {
+    "name": "Gunnery Specialist",
+    "prerequisites": "BAB +1 (can use Gunnery tactics)",
+    "description": "1/encounter reroll vehicle atk, proficient w/vehicle weapons",
+    "jedi": false,
+    "noble": false,
+    "scoundrel": false,
+    "scout": false,
+    "soldier": true
+  },
+  {
+    "name": "Halt",
+    "prerequisites": "BAB +8, Trip, Weapon Focus*",
+    "description": "if hit w/Atk of Opp compare same die roll result v. grapple target halts move & prone, if over thresh than lose",
+    "jedi": false,
+    "noble": false,
+    "scoundrel": false,
+    "scout": false,
+    "soldier": true
+  },
+  {
+    "name": "Hasty Modification",
+    "prerequisites": "Tech Specialist",
+    "description": "aelxl cahcatinognes a trait for another, 1 min DC 20 Mechanics",
+    "jedi": false,
+    "noble": true,
+    "scoundrel": true,
+    "scout": false,
+    "soldier": false
+  },
+  {
+    "name": "Heavy Hitter",
+    "prerequisites": "Weapon Focus (heavy weapons)*",
+    "description": "+1 die dam every 5 pts over Ref Def, if over thresh then target can't atk next turn & reduce spd 2sq",
+    "jedi": false,
+    "noble": false,
+    "scoundrel": false,
+    "scout": false,
+    "soldier": true
+  },
+  {
+    "name": "Hideous Visage",
+    "prerequisites": "Shapeshift",
+    "description": "1/encounter swif Deception v. WillDef move target 1sq & -1 atk v. you",
+    "jedi": false,
+    "noble": false,
+    "scoundrel": false,
+    "scout": false,
+    "soldier": false
+  },
+  {
+    "name": "Hijkata Training",
+    "prerequisites": "Combat Reflexes, Martial Arts I",
+    "description": "1/rnd when adjacent enemy damages you w/melee atk you can make Atk of Opp w/-5 atk, 1/enc w/Atk of Opp\nfrom you that enemy takes penalty on atk = your Dex mod until end of next turn, w/Expertise 1/enc spend full\n& designate single ally, any enemy adjacent to you or ally provokes Atk of Opp. If ally moves you can move\nspd as reac but must end adjacent to enemy",
+    "jedi": false,
+    "noble": false,
+    "scoundrel": false,
+    "scout": false,
+    "soldier": false
+  },
+  {
+    "name": "Hobbling Strike",
+    "prerequisites": "Sneak Attack talent or Rapid Shot/Strike",
+    "description": "sacrifice extra dam from Sneak Atk to reduce target's spd by 1 for enc",
+    "jedi": false,
+    "noble": false,
+    "scoundrel": true,
+    "scout": true,
+    "soldier": true
+  },
+  {
+    "name": "Hunter's Instincts",
+    "prerequisites": "Rodian",
+    "description": "always keep the better result on a Perception reroll",
+    "jedi": false,
+    "noble": false,
+    "scoundrel": false,
+    "scout": false,
+    "soldier": false
+  },
+  {
+    "name": "Hyperblazer",
+    "prerequisites": "Trained in Use Computer",
+    "description": "reduce time & penalties Use Computer to navigate the tangle & mapping",
+    "jedi": false,
+    "noble": false,
+    "scoundrel": false,
+    "scout": true,
+    "soldier": false
+  },
+  {
+    "name": "Imperceptible Liar",
+    "prerequisites": "Twi'lek",
+    "description": "when spend Force Point to Deception, increase die type by 2 steps",
+    "jedi": false,
+    "noble": false,
+    "scoundrel": false,
+    "scout": false,
+    "soldier": false
+  },
+  {
+    "name": "Imperial Military Training",
+    "prerequisites": null,
+    "description": "1/enc as free action on your turn, negate 1 mind-affecting effect",
+    "jedi": false,
+    "noble": false,
+    "scoundrel": false,
+    "scout": false,
+    "soldier": true
+  },
+  {
+    "name": "Impersonate",
+    "prerequisites": "Shapeshift, SF Deception",
+    "description": "alter features & voice to a specific person, Moderate deception",
+    "jedi": false,
+    "noble": false,
+    "scoundrel": false,
+    "scout": false,
+    "soldier": false
+  },
+  {
+    "name": "Impetuous Move",
+    "prerequisites": "Con 13",
+    "description": "when catch 2nd wind, regain only half hp to move half spd, no atk opp",
+    "jedi": true,
+    "noble": false,
+    "scoundrel": false,
+    "scout": false,
+    "soldier": true
+  },
+  {
+    "name": "Implant Training",
+    "prerequisites": "Possess a cybernetic implant",
+    "description": "not moved down track extra step when would be moved down",
+    "jedi": false,
+    "noble": false,
+    "scoundrel": true,
+    "scout": false,
+    "soldier": false
+  },
+  {
+    "name": "Improved Bantha Rush",
+    "prerequisites": "Str 15, Bantha Rush, BAB +1",
+    "description": "Push opponent squares = Str mod (2min) after successful melee attack",
+    "jedi": false,
+    "noble": false,
+    "scoundrel": false,
+    "scout": false,
+    "soldier": true
+  },
+  {
+    "name": "Improved Charge",
+    "prerequisites": "Dex 13, Dodge, Mobility",
+    "description": "can charge without moving in a straight line",
+    "jedi": true,
+    "noble": false,
+    "scoundrel": false,
+    "scout": false,
+    "soldier": true
+  },
+  {
+    "name": "Improved Damage Threshold",
+    "prerequisites": null,
+    "description": "damage threshold increases by 5",
+    "jedi": false,
+    "noble": false,
+    "scoundrel": false,
+    "scout": false,
+    "soldier": false
+  },
+  {
+    "name": "Improved Defenses",
+    "prerequisites": null,
+    "description": "+1 to all Def",
+    "jedi": false,
+    "noble": false,
+    "scoundrel": false,
+    "scout": false,
+    "soldier": false
+  },
+  {
+    "name": "Improved Disarm",
+    "prerequisites": "Int 13, Melee Defense",
+    "description": "+5 to melee attacks to Disarm, failure doesn't provoke Atk of Opp",
+    "jedi": true,
+    "noble": false,
+    "scoundrel": false,
+    "scout": false,
+    "soldier": true
+  },
+  {
+    "name": "Improved Disarm + Force Training",
+    "prerequisites": "Combo, requires Force Training",
+    "description": "gain +5 from Improved Disarm on Use the Force check",
+    "jedi": false,
+    "noble": false,
+    "scoundrel": false,
+    "scout": false,
+    "soldier": false
+  },
+  {
+    "name": "Improved Opportunistic Trickery",
+    "prerequisites": "Opportunistic Trickery*",
+    "description": "1/turn instead of AoO, reduce target's Ref Def by 5 for 1 turn",
+    "jedi": false,
+    "noble": false,
+    "scoundrel": true,
+    "scout": false,
+    "soldier": false
+  },
+  {
+    "name": "Improved Rapid Strike",
+    "prerequisites": "Rapid Strike, light melee weapon",
+    "description": "-5 Atk to deal +2 die damage, melee, if no Dex 13 extra -10 Atk",
+    "jedi": true,
+    "noble": false,
+    "scoundrel": false,
+    "scout": false,
+    "soldier": true
+  },
+  {
+    "name": "Improved Sleight of Hand",
+    "prerequisites": "Dex 15, SF (Deception)*, trained in Stealth",
+    "description": "Deception as swif opposed Perception must exceed Deception & Stealth, can draw & palm weapon 2 sizes\nsmaller than you",
+    "jedi": false,
+    "noble": false,
+    "scoundrel": true,
+    "scout": false,
+    "soldier": false
+  },
+  {
+    "name": "Improvised Weapon Mastery",
+    "prerequisites": "WP (simple weapons)",
+    "description": "all improvised as simple & +1d6 dam",
+    "jedi": false,
+    "noble": false,
+    "scoundrel": false,
+    "scout": true,
+    "soldier": true
+  },
+  {
+    "name": "Impulsive Flight",
+    "prerequisites": null,
+    "description": "can withdraw one extra square",
+    "jedi": true,
+    "noble": true,
+    "scoundrel": true,
+    "scout": false,
+    "soldier": false
+  },
+  {
+    "name": "Inborn Resilience",
+    "prerequisites": "Zabrak",
+    "description": "reduce species bonus to 1 Def to 0 & another to +2, cannot change back",
+    "jedi": false,
+    "noble": false,
+    "scoundrel": false,
+    "scout": false,
+    "soldier": false
+  },
+  {
+    "name": "Increased Agility",
+    "prerequisites": "Conditioning",
+    "description": "increase Climb, Jump or Swim by 2 squares & don't lose Dex climbing",
+    "jedi": false,
+    "noble": false,
+    "scoundrel": false,
+    "scout": true,
+    "soldier": true
+  },
+  {
+    "name": "Increased Resistance",
+    "prerequisites": "Gamorrean",
+    "description": "if attack v. Fort Def fails, gain +2 Fort Def until start of your next turn",
+    "jedi": false,
+    "noble": false,
+    "scoundrel": false,
+    "scout": false,
+    "soldier": false
+  },
+  {
+    "name": "Indomitable Personality",
+    "prerequisites": "Cha 13",
+    "description": "1/enc add Cha mod to Will Def for 1 turn as reac",
+    "jedi": false,
+    "noble": true,
+    "scoundrel": true,
+    "scout": false,
+    "soldier": false
+  },
+  {
+    "name": "Informer",
+    "prerequisites": "Trained in Perception",
+    "description": "Perception replaces Gather Info, considered trained, reduce time",
+    "jedi": false,
+    "noble": true,
+    "scoundrel": false,
+    "scout": false,
+    "soldier": false
+  },
+  {
+    "name": "Instinctive Attack",
+    "prerequisites": "Proficient with weapon, living character",
+    "description": "when use FP on atk can reroll & keep better & apply Force Point",
+    "jedi": true,
+    "noble": false,
+    "scoundrel": false,
+    "scout": false,
+    "soldier": false
+  },
+  {
+    "name": "Instinctive Defense",
+    "prerequisites": "Living character (not a droid)",
+    "description": "as free spend FP to increase all defenses by 2 until next turn",
+    "jedi": true,
+    "noble": false,
+    "scoundrel": false,
+    "scout": false,
+    "soldier": false
+  },
+  {
+    "name": "Instinctive Perception",
+    "prerequisites": "Zabrak",
+    "description": "when you reroll Perception & take lower gain FP to use w/Perception until the end of the encounter",
+    "jedi": false,
+    "noble": false,
+    "scoundrel": false,
+    "scout": false,
+    "soldier": false
+  },
+  {
+    "name": "Intimidator",
+    "prerequisites": "Trained in Persuasion",
+    "description": "when intimidate instead of normal target -5 skills & -2 atk w/you in LOS",
+    "jedi": false,
+    "noble": true,
+    "scoundrel": false,
+    "scout": false,
+    "soldier": false
+  },
+  {
+    "name": "Ion Shielding",
+    "prerequisites": "Droid with Str 13 or cyborg with Con 13",
+    "description": "if ion dam before being halved equals thresh move only -1 down track",
+    "jedi": false,
+    "noble": false,
+    "scoundrel": false,
+    "scout": false,
+    "soldier": false
+  },
+  {
+    "name": "Jedi Familiarity",
+    "prerequisites": null,
+    "description": "1/encounter if targeted by Force from ally gain 1 FP until end of enc.",
+    "jedi": false,
+    "noble": false,
+    "scoundrel": false,
+    "scout": false,
+    "soldier": false
+  },
+  {
+    "name": "Jedi Heritage",
+    "prerequisites": "Twi'lek, Force Sensitivity",
+    "description": "gain 2 extra Force powers for each Force Training",
+    "jedi": false,
+    "noble": false,
+    "scoundrel": false,
+    "scout": false,
+    "soldier": false
+  },
+  {
+    "name": "Justice Seeker",
+    "prerequisites": "Kel Dor",
+    "description": "+2 dam against targets that dam you or allies since end of your last turn",
+    "jedi": false,
+    "noble": false,
+    "scoundrel": false,
+    "scout": false,
+    "soldier": false
+  },
+  {
+    "name": "Keen Scent",
+    "prerequisites": "Ewok",
+    "description": "range of Scent is 20 sq",
+    "jedi": false,
+    "noble": false,
+    "scoundrel": false,
+    "scout": false,
+    "soldier": false
+  },
+  {
+    "name": "Knife Trick",
+    "prerequisites": "Lightning Draw, trained in Stealth",
+    "description": "w/Atk Opp can draw concealed weapon & make 1 atk, still threaten sq",
+    "jedi": false,
+    "noble": false,
+    "scoundrel": true,
+    "scout": false,
+    "soldier": false
+  },
+  {
+    "name": "Knock Heads",
+    "prerequisites": "Str 13, Dex 13, Multi-Grab",
+    "description": "deal 1d6+Str mod dam to adjacent you multi-grabbed, thresh -5",
+    "jedi": false,
+    "noble": false,
+    "scoundrel": false,
+    "scout": false,
+    "soldier": true
+  },
+  {
+    "name": "K'tara Training",
+    "prerequisites": "Martial Arts I, trained in Stealth",
+    "description": "roll an extra die of dam v. flat-footed enemy on 1 unarmed atk, 1/enc when you dam a target denied Dex to\nRef Def make 2nd unarmed atk v. Fort Def as free to render target incapable of speech until end of next turn,\nw/Expertise spend 2 swif to cause single adjacent enemy to be flat-footed v. your 1st atk the same round",
+    "jedi": false,
+    "noble": false,
+    "scoundrel": false,
+    "scout": false,
+    "soldier": false
+  },
+  {
+    "name": "K'thri Training",
+    "prerequisites": "Martial Arts I, Dual Weapon Mastery I",
+    "description": "1/rnd spend swif to make 1 unarmed atk w/in reach dealing your base unarmed dam w/no bonus to dam from\nStr or HL, 1/enc if an unarmed atk misses deal half dam, must be wearing light or no armor, w/Expertise 1/enc\nw/full atk reroll 1 atk but you must take reroll & wearing light or no armor",
+    "jedi": false,
+    "noble": false,
+    "scoundrel": false,
+    "scout": false,
+    "soldier": false
+  },
+  {
+    "name": "Lasting Influence",
+    "prerequisites": "Bothan",
+    "description": "with successful Persuasion gain favorable circumstances next 24 hours",
+    "jedi": false,
+    "noble": false,
+    "scoundrel": false,
+    "scout": false,
+    "soldier": false
+  },
+  {
+    "name": "Leader of Droids",
+    "prerequisites": null,
+    "description": "provide mind-affecting effect to allied droids = Int mod (min 1)",
+    "jedi": false,
+    "noble": true,
+    "scoundrel": false,
+    "scout": false,
+    "soldier": false
+  },
+  {
+    "name": "Lightning Draw",
+    "prerequisites": "Quick Draw",
+    "description": "1/encounter draw holstered weapon & attack as single stan action",
+    "jedi": true,
+    "noble": false,
+    "scoundrel": true,
+    "scout": false,
+    "soldier": true
+  },
+  {
+    "name": "Linguist",
+    "prerequisites": "Int 13",
+    "description": "bonus languages = 1 + Int mod (min one)",
+    "jedi": false,
+    "noble": true,
+    "scoundrel": false,
+    "scout": true,
+    "soldier": false
+  },
+  {
+    "name": "Logic Upgrade: Self-Defense",
+    "prerequisites": "Droid",
+    "description": "Once per encounter, as reac +2 one defense",
+    "jedi": false,
+    "noble": false,
+    "scoundrel": false,
+    "scout": false,
+    "soldier": false
+  },
+  {
+    "name": "Logic Upgrade: Skill Swap",
+    "prerequisites": "Droid, basic processor",
+    "description": "full-round swap skill not trained in for trained skill (not trained)",
+    "jedi": false,
+    "noble": false,
+    "scoundrel": false,
+    "scout": false,
+    "soldier": false
+  },
+  {
+    "name": "Logic Upgrade: Tactician",
+    "prerequisites": "Droid, BAB +4",
+    "description": "Once per encounter, aid another +5 Atk",
+    "jedi": false,
+    "noble": false,
+    "scoundrel": false,
+    "scout": false,
+    "soldier": false
+  },
+  {
+    "name": "Long Haft Strike",
+    "prerequisites": "proficient with weapon",
+    "description": "can attack with both ends of lightsaber pike or long-handled lightsaber",
+    "jedi": false,
+    "noble": false,
+    "scoundrel": false,
+    "scout": false,
+    "soldier": false
+  },
+  {
+    "name": "Mandalorian Training",
+    "prerequisites": "Charging Fire",
+    "description": "make ranged +2 Atk at end of charge, -2 to Ref Def, +2 Will Def",
+    "jedi": false,
+    "noble": false,
+    "scoundrel": false,
+    "scout": false,
+    "soldier": false
+  },
+  {
+    "name": "Maniacal Charge",
+    "prerequisites": null,
+    "description": "when charge make Persuasion as free to intimidate each target pass w/in 1 sq, if succeed they can't make\nAoO v. you, if over v. target loses Dex & flat-footed",
+    "jedi": false,
+    "noble": false,
+    "scoundrel": false,
+    "scout": true,
+    "soldier": true
+  },
+  {
+    "name": "Martial Arts I",
+    "prerequisites": null,
+    "description": "+1 Ref Def, increase damage for unarmed attacks by one die step",
+    "jedi": true,
+    "noble": false,
+    "scoundrel": false,
+    "scout": false,
+    "soldier": true
+  },
+  {
+    "name": "Martial Arts III",
+    "prerequisites": "BAB +6, Martial Arts I, II",
+    "description": "+1 Ref Def, increase damage for unarmed attacks by one die step",
+    "jedi": true,
+    "noble": false,
+    "scoundrel": false,
+    "scout": false,
+    "soldier": true
+  },
+  {
+    "name": "Master of Disguise",
+    "prerequisites": "trained in Deception, Cha 13",
+    "description": "+5 Deception for forging documents or appearance, -2 penalty if rush",
+    "jedi": false,
+    "noble": true,
+    "scoundrel": true,
+    "scout": false,
+    "soldier": false
+  },
+  {
+    "name": "Master Tracker",
+    "prerequisites": "Rodian",
+    "description": "when spend Force Point to Survival, increase die type by 2 steps",
+    "jedi": false,
+    "noble": false,
+    "scoundrel": false,
+    "scout": false,
+    "soldier": false
+  },
+  {
+    "name": "Meat Shield",
+    "prerequisites": "Precise Shot*, BAB +4",
+    "description": "If opponent uses creature for cover, you gain that cover too from them",
+    "jedi": false,
+    "noble": false,
+    "scoundrel": false,
+    "scout": true,
+    "soldier": true
+  },
+  {
+    "name": "Mechanical Martial Arts",
+    "prerequisites": "Droid, Martial Arts I, BAB +1",
+    "description": "when you dam enemy w/unarmed atk enemy -5 melee atk & dam until next turn",
+    "jedi": false,
+    "noble": false,
+    "scoundrel": false,
+    "scout": false,
+    "soldier": false
+  },
+  {
+    "name": "Medical Team (team feat)",
+    "prerequisites": "Trained in Treat Injury",
+    "description": "+3 Treat Injury & +1 each ally w/feat w/in 12 sq (max +7), aid another to restore hp restores +4 hp",
+    "jedi": false,
+    "noble": false,
+    "scoundrel": false,
+    "scout": false,
+    "soldier": false
+  },
+  {
+    "name": "Melee Defense",
+    "prerequisites": "Int 13",
+    "description": "trade Atk bonus on melee attacks for dodge bonus Ref Def",
+    "jedi": true,
+    "noble": true,
+    "scoundrel": true,
+    "scout": false,
+    "soldier": true
+  },
+  {
+    "name": "Metamorph",
+    "prerequisites": "Con 13, shapeshift, trained Deception",
+    "description": "full round can change mass & change size, number of rounds = Con",
+    "jedi": false,
+    "noble": false,
+    "scoundrel": false,
+    "scout": false,
+    "soldier": false
+  },
+  {
+    "name": "Mighty Swing",
+    "prerequisites": "Str 13",
+    "description": "spend two swift actions to increase damage 1 die",
+    "jedi": false,
+    "noble": false,
+    "scoundrel": false,
+    "scout": false,
+    "soldier": true
+  },
+  {
+    "name": "Mighty Throw",
+    "prerequisites": "Str 13",
+    "description": "add Str & Dex to thrown Atk, range + squares = Str mod",
+    "jedi": false,
+    "noble": false,
+    "scoundrel": false,
+    "scout": false,
+    "soldier": true
+  },
+  {
+    "name": "Mind of Reason",
+    "prerequisites": "Cerean",
+    "description": "can use Wisdom instead of Intelligence for Intelligence-based skills",
+    "jedi": false,
+    "noble": false,
+    "scoundrel": false,
+    "scout": false,
+    "soldier": false
+  },
+  {
+    "name": "Mission Specialist",
+    "prerequisites": null,
+    "description": "choose a trained skill, allies not trained gain +2 w/in 12 sq",
+    "jedi": true,
+    "noble": true,
+    "scoundrel": true,
+    "scout": true,
+    "soldier": true
+  },
+  {
+    "name": "Mobility",
+    "prerequisites": "Dex 13, Dodge",
+    "description": "+5 Ref Def against attacks of opportunity",
+    "jedi": true,
+    "noble": false,
+    "scoundrel": true,
+    "scout": true,
+    "soldier": false
+  },
+  {
+    "name": "Momentum Strike",
+    "prerequisites": "Trained in Pilot or Ride",
+    "description": "melee Atk +1 die damage if mounted and moving",
+    "jedi": false,
+    "noble": false,
+    "scoundrel": false,
+    "scout": false,
+    "soldier": false
+  },
+  {
+    "name": "Mon Calamari Shipwright",
+    "prerequisites": "Mon Calamari",
+    "description": "spend 2 swif to move vehicle up track not 3, automatically reroute power",
+    "jedi": false,
+    "noble": false,
+    "scoundrel": false,
+    "scout": false,
+    "soldier": false
+  },
+  {
+    "name": "Mounted Combat",
+    "prerequisites": "Trained in Ride",
+    "description": "DC20 Ride as swif +2sq spd, failure = mount -1 track, 1/round negate hit v. you or mount w/Ride check, DC20\nEndurance for mount each time after in enc",
+    "jedi": false,
+    "noble": true,
+    "scoundrel": false,
+    "scout": true,
+    "soldier": false
+  },
+  {
+    "name": "Mounted Defense",
+    "prerequisites": "Trained in Pilot or Ride",
+    "description": "Once per encounter, can redirect Atk to mount or vehicle, after Atk",
+    "jedi": false,
+    "noble": false,
+    "scoundrel": false,
+    "scout": false,
+    "soldier": false
+  },
+  {
+    "name": "Mounted Regiment (team feat)",
+    "prerequisites": "Trained in Ride",
+    "description": "+3 Ride & +1 each ally w/feat w/in 12 sq (max +7), 1/rnd as reac to mount being atked make Ride check & if\nover mount's Ref Def use instead",
+    "jedi": false,
+    "noble": false,
+    "scoundrel": false,
+    "scout": false,
+    "soldier": false
+  },
+  {
+    "name": "Moving Target",
+    "prerequisites": "Dodge",
+    "description": "if end turn 3 sq from start +1 dodge to Ref Def",
+    "jedi": true,
+    "noble": false,
+    "scoundrel": true,
+    "scout": true,
+    "soldier": false
+  },
+  {
+    "name": "Multi-Grab",
+    "prerequisites": "Dex 13",
+    "description": "as stan action, grab atk v. 2 adjacent if you have 2 empty hands",
+    "jedi": false,
+    "noble": false,
+    "scoundrel": false,
+    "scout": false,
+    "soldier": true
+  },
+  {
+    "name": "Multi-Targeting",
+    "prerequisites": "Droid, Int 13, proficient",
+    "description": "use swif actions across more than 1 rnd to aim if target stays in LOS & atk others",
+    "jedi": false,
+    "noble": false,
+    "scoundrel": false,
+    "scout": false,
+    "soldier": false
+  },
+  {
+    "name": "Natural Leader",
+    "prerequisites": "Cha 13",
+    "description": "organization has scale = 1/2 HL + Cha mod, +10 organization score",
+    "jedi": false,
+    "noble": false,
+    "scoundrel": false,
+    "scout": false,
+    "soldier": false
+  },
+  {
+    "name": "Nature Specialist",
+    "prerequisites": "Ithorian",
+    "description": "when spend FP to Knowledge (life sciences), increase die type by 2 steps",
+    "jedi": false,
+    "noble": false,
+    "scoundrel": false,
+    "scout": false,
+    "soldier": false
+  },
+  {
+    "name": "Never Surrender",
+    "prerequisites": "Trained in Endurance",
+    "description": "make Endurance check 1st time reduced to 0 hp as reac w/DC = dam done, if successful reduced to 1 hp",
+    "jedi": true,
+    "noble": false,
+    "scoundrel": false,
+    "scout": true,
+    "soldier": true
+  },
+  {
+    "name": "Nikto Survival",
+    "prerequisites": "Nikto",
+    "description": "reroll Survival & keep better in environment of subspecies",
+    "jedi": false,
+    "noble": false,
+    "scoundrel": false,
+    "scout": false,
+    "soldier": false
+  },
+  {
+    "name": "Nimble Team (team feat)",
+    "prerequisites": "Trained in Acrobatics",
+    "description": "+3 Acrobatics & +1 each ally w/feat w/in 12 sq (max +7), can tumble 1 extra sq",
+    "jedi": false,
+    "noble": false,
+    "scoundrel": false,
+    "scout": false,
+    "soldier": false
+  },
+  {
+    "name": "Officer Candidacy Training",
+    "prerequisites": null,
+    "description": "+2 to Rank & Privilege organization score",
+    "jedi": true,
+    "noble": false,
+    "scoundrel": false,
+    "scout": false,
+    "soldier": true
+  },
+  {
+    "name": "Opportunistic Retreat",
+    "prerequisites": "Combat Reflexes",
+    "description": "instead of Atk of Opp 1/turn not attack to move half speed, no atk opp",
+    "jedi": true,
+    "noble": true,
+    "scoundrel": false,
+    "scout": false,
+    "soldier": false
+  },
+  {
+    "name": "Opportunistic Shooter",
+    "prerequisites": null,
+    "description": "+2 to attacks of opportunity with ranged",
+    "jedi": false,
+    "noble": false,
+    "scoundrel": true,
+    "scout": true,
+    "soldier": true
+  },
+  {
+    "name": "Opportunistic Trickery",
+    "prerequisites": "Combat Reflexes, Sneak Attack",
+    "description": "1/turn instead of AoO, reduce target's Ref Def by 2 next round",
+    "jedi": false,
+    "noble": false,
+    "scoundrel": true,
+    "scout": false,
+    "soldier": false
+  },
+  {
+    "name": "Overwhelming Attack",
+    "prerequisites": null,
+    "description": "2 swif for -5 on target's attempt to negate (Block, Vehicular Combat)",
+    "jedi": false,
+    "noble": false,
+    "scoundrel": true,
+    "scout": false,
+    "soldier": true
+  },
+  {
+    "name": "Pall of the Dark Side",
+    "prerequisites": "Dark Side Score 1+",
+    "description": "add one-half Dark Side Score to Use the Force to resist detection",
+    "jedi": false,
+    "noble": false,
+    "scoundrel": false,
+    "scout": false,
+    "soldier": false
+  },
+  {
+    "name": "Perfect Intuition",
+    "prerequisites": "Cerean",
+    "description": "always keep the better result on a Initiative reroll",
+    "jedi": false,
+    "noble": false,
+    "scoundrel": false,
+    "scout": false,
+    "soldier": false
+  },
+  {
+    "name": "Perfect Swimmer",
+    "prerequisites": "Gungan",
+    "description": "always keep the better result on a Swim reroll",
+    "jedi": false,
+    "noble": false,
+    "scoundrel": false,
+    "scout": false,
+    "soldier": false
+  },
+  {
+    "name": "Pin",
+    "prerequisites": "BAB +1",
+    "description": "grappled opp is pinned 1 round and loses Dex to Def",
+    "jedi": false,
+    "noble": false,
+    "scoundrel": false,
+    "scout": false,
+    "soldier": true
+  },
+  {
+    "name": "Pincer",
+    "prerequisites": "Droid, claw or hand, BAB +1, Pin, Crush",
+    "description": "can maintain Pin beyond 1 rnd & make grapple checks against pinned as swif & apply Crush",
+    "jedi": false,
+    "noble": false,
+    "scoundrel": false,
+    "scout": false,
+    "soldier": false
+  },
+  {
+    "name": "Pinpoint Accuracy",
+    "prerequisites": "Droid, Aiming Accuracy, PB Shot, Precise\nShot, proficient",
+    "description": "target of Aiming Accuracy cannot take the recover action until next turn",
+    "jedi": false,
+    "noble": false,
+    "scoundrel": false,
+    "scout": false,
+    "soldier": false
+  },
+  {
+    "name": "Pistoleer",
+    "prerequisites": "proficient with weapon",
+    "description": "Blaster Pistol is accurate, Heavy Blaster Pistol not inaccurate, Hold-out if target has not acted +2 atk until the\ntarget acts",
+    "jedi": false,
+    "noble": false,
+    "scoundrel": true,
+    "scout": true,
+    "soldier": true
+  },
+  {
+    "name": "Pitiless Warrior",
+    "prerequisites": "Trandoshan",
+    "description": "gain hp = 5 + 1/2 level if reduce opponent to 0 hp",
+    "jedi": false,
+    "noble": false,
+    "scoundrel": false,
+    "scout": false,
+    "soldier": false
+  },
+  {
+    "name": "Point Blank Shot",
+    "prerequisites": null,
+    "description": "+1 on ranged Atk and damage against point blank foes",
+    "jedi": false,
+    "noble": false,
+    "scoundrel": false,
+    "scout": true,
+    "soldier": true
+  },
+  {
+    "name": "Poison Resistance",
+    "prerequisites": "Con 13",
+    "description": "+5 Fort Def v. Poison, half dam if fail",
+    "jedi": false,
+    "noble": false,
+    "scoundrel": true,
+    "scout": true,
+    "soldier": false
+  },
+  {
+    "name": "Power Attack",
+    "prerequisites": "Str 13",
+    "description": "trade Atk bonus on melee attacks for damage (up to BAB)",
+    "jedi": true,
+    "noble": false,
+    "scoundrel": false,
+    "scout": false,
+    "soldier": true
+  },
+  {
+    "name": "Power Blast",
+    "prerequisites": "Dex 13",
+    "description": "trade Atk bonus on ranged atk for dam (BAB), no Str 13 -5 Atk",
+    "jedi": false,
+    "noble": false,
+    "scoundrel": false,
+    "scout": false,
+    "soldier": true
+  },
+  {
+    "name": "Powerful Charge",
+    "prerequisites": "BAB +1, Medium or larger size",
+    "description": "+2 Atk on charge and extra damage = 1/2 your level",
+    "jedi": true,
+    "noble": false,
+    "scoundrel": false,
+    "scout": false,
+    "soldier": false
+  },
+  {
+    "name": "Powerful Rage",
+    "prerequisites": "Rage",
+    "description": "+4 Str checks & Str skill checks while raging",
+    "jedi": false,
+    "noble": false,
+    "scoundrel": false,
+    "scout": false,
+    "soldier": false
+  },
+  {
+    "name": "Precise Shot",
+    "prerequisites": "Point Blank Shot",
+    "description": "no penalty shooting into melee",
+    "jedi": false,
+    "noble": false,
+    "scoundrel": true,
+    "scout": true,
+    "soldier": true
+  },
+  {
+    "name": "Predictive Defense",
+    "prerequisites": "Int 13",
+    "description": "can use Dex or Int mod to determine Ref Def",
+    "jedi": false,
+    "noble": true,
+    "scoundrel": true,
+    "scout": false,
+    "soldier": false
+  },
+  {
+    "name": "Prime Shot",
+    "prerequisites": "Point Blank Shot",
+    "description": "if none of your allies are closer than you, +1 ranged atk (short or closer)",
+    "jedi": false,
+    "noble": false,
+    "scoundrel": true,
+    "scout": true,
+    "soldier": true
+  },
+  {
+    "name": "Primitive Warrior",
+    "prerequisites": "Gamorrean",
+    "description": "+1 die dam with simple melee weapons",
+    "jedi": false,
+    "noble": false,
+    "scoundrel": false,
+    "scout": false,
+    "soldier": false
+  },
+  {
+    "name": "Quick Draw",
+    "prerequisites": "BAB +1",
+    "description": "draw weapon as swift action instead of move action",
+    "jedi": true,
+    "noble": false,
+    "scoundrel": true,
+    "scout": false,
+    "soldier": true
+  },
+  {
+    "name": "Quick Draw + Dual Weapon\nMastery I",
+    "prerequisites": "Combo, requires Dual Weapon Mastery I",
+    "description": "draw or holster 2 weapons as single swif action",
+    "jedi": false,
+    "noble": false,
+    "scoundrel": false,
+    "scout": false,
+    "soldier": false
+  },
+  {
+    "name": "Quick Draw + WP (lightsabers)",
+    "prerequisites": "Combo, requires proficiency in lightsabers",
+    "description": "draw and ignite lightsaber as single swif action",
+    "jedi": false,
+    "noble": false,
+    "scoundrel": false,
+    "scout": false,
+    "soldier": false
+  },
+  {
+    "name": "Quick Skill",
+    "prerequisites": null,
+    "description": "Once per encounter, can take 10 when rushed, can take 20 in half time",
+    "jedi": false,
+    "noble": true,
+    "scoundrel": true,
+    "scout": false,
+    "soldier": false
+  },
+  {
+    "name": "Rancor Crush",
+    "prerequisites": "Str 15, Crush, Pin, BAB +1",
+    "description": "when you Pin an opponent & use Crush feat, target -1 down track",
+    "jedi": false,
+    "noble": false,
+    "scoundrel": false,
+    "scout": false,
+    "soldier": true
+  },
+  {
+    "name": "Rapid Reaction",
+    "prerequisites": null,
+    "description": "1/enc you can use two different reactions to the same trigger",
+    "jedi": true,
+    "noble": true,
+    "scoundrel": true,
+    "scout": true,
+    "soldier": true
+  },
+  {
+    "name": "Rapid Shot",
+    "prerequisites": "BAB +1, proficient with weapon",
+    "description": "-2 Atk for +1 die dam, ranged, fires 2 shots, if no Str 13 extra Atk -5",
+    "jedi": false,
+    "noble": false,
+    "scoundrel": true,
+    "scout": true,
+    "soldier": true
+  },
+  {
+    "name": "Rapid Strike",
+    "prerequisites": "BAB +1, proficient with weapon",
+    "description": "-2 Atk to deal +1 die damage, melee, if no Dex 13 extra -5 Atk",
+    "jedi": true,
+    "noble": false,
+    "scoundrel": false,
+    "scout": false,
+    "soldier": true
+  },
+  {
+    "name": "Rapport",
+    "prerequisites": "Wis 13",
+    "description": "additional +2 aid another, does not stack with Coordinate",
+    "jedi": false,
+    "noble": true,
+    "scoundrel": false,
+    "scout": false,
+    "soldier": true
+  },
+  {
+    "name": "Read the Winds",
+    "prerequisites": "Kel Dor",
+    "description": "ignore concealment & cover for Perception w/in 10 sq",
+    "jedi": false,
+    "noble": false,
+    "scoundrel": false,
+    "scout": false,
+    "soldier": false
+  },
+  {
+    "name": "Rebel Military Training",
+    "prerequisites": "Running Attack",
+    "description": "if move before & after attack +2 Ref Def",
+    "jedi": false,
+    "noble": false,
+    "scoundrel": false,
+    "scout": true,
+    "soldier": true
+  },
+  {
+    "name": "Recall",
+    "prerequisites": "Trained in one Knowledge skill",
+    "description": "Once per day, reroll trained Knowledge check, taking best",
+    "jedi": false,
+    "noble": true,
+    "scoundrel": false,
+    "scout": false,
+    "soldier": false
+  },
+  {
+    "name": "Recovering Surge",
+    "prerequisites": null,
+    "description": "move +1 up track when catch Second Wind",
+    "jedi": true,
+    "noble": true,
+    "scoundrel": true,
+    "scout": true,
+    "soldier": true
+  },
+  {
+    "name": "Recurring Success",
+    "prerequisites": null,
+    "description": "choose one talent or feat. That feat may be used once more /enc",
+    "jedi": false,
+    "noble": false,
+    "scoundrel": false,
+    "scout": false,
+    "soldier": false
+  },
+  {
+    "name": "Regenerative Healing",
+    "prerequisites": "Trandoshan",
+    "description": "1/day with Second Wind regain no hp but gain 5 hp at end of each turn",
+    "jedi": false,
+    "noble": false,
+    "scoundrel": false,
+    "scout": false,
+    "soldier": false
+  },
+  {
+    "name": "Relentless Attack",
+    "prerequisites": "proficient & Double Attack w/weapon",
+    "description": "if miss, add +2 on next atk roll before end of next turn against missed",
+    "jedi": false,
+    "noble": false,
+    "scoundrel": false,
+    "scout": false,
+    "soldier": false
+  },
+  {
+    "name": "Republic Military Training",
+    "prerequisites": null,
+    "description": "Once per encounter as reac, gain DR10 if you have cover even v. aim",
+    "jedi": false,
+    "noble": false,
+    "scoundrel": false,
+    "scout": false,
+    "soldier": false
+  },
+  {
+    "name": "Resilient Strength",
+    "prerequisites": "Str 13",
+    "description": "can use Str or Con mod to determine Fort Def",
+    "jedi": true,
+    "noble": false,
+    "scoundrel": false,
+    "scout": true,
+    "soldier": true
+  },
+  {
+    "name": "Resolute Stance",
+    "prerequisites": "BAB +1",
+    "description": "fight defensively to gain +2 or +5 to Will Def with no attacks",
+    "jedi": true,
+    "noble": false,
+    "scoundrel": false,
+    "scout": false,
+    "soldier": true
+  },
+  {
+    "name": "Resurgence",
+    "prerequisites": "Trained in Endurance",
+    "description": "catch second wind & immediately gain immediate move action",
+    "jedi": true,
+    "noble": false,
+    "scoundrel": false,
+    "scout": false,
+    "soldier": true
+  },
+  {
+    "name": "Resurgent Vitality",
+    "prerequisites": "Wookiee",
+    "description": "with Second Wind gain additional hp = twice Con bonus (min 2)",
+    "jedi": false,
+    "noble": false,
+    "scoundrel": false,
+    "scout": false,
+    "soldier": false
+  },
+  {
+    "name": "Return Fire",
+    "prerequisites": "Dex 15, Quick Draw, Weapon Focus",
+    "description": "1/enc as reac ranged atk v. target that missed you w/ranged atk in LOS",
+    "jedi": false,
+    "noble": true,
+    "scoundrel": true,
+    "scout": true,
+    "soldier": false
+  },
+  {
+    "name": "Returning Bug",
+    "prerequisites": "proficient with weapon",
+    "description": "if you miss with razor or thud bug it automatically returns",
+    "jedi": false,
+    "noble": true,
+    "scoundrel": true,
+    "scout": false,
+    "soldier": false
+  },
+  {
+    "name": "Riflemaster",
+    "prerequisites": "proficient with weapon",
+    "description": "Blaster Carbine can brace set to autofire, Blaster Rifle is accurate, Heavy Blaster Rifle dam dice d12, Light\nRepeating Blaster as if M not L",
+    "jedi": false,
+    "noble": false,
+    "scoundrel": false,
+    "scout": true,
+    "soldier": true
+  },
+  {
+    "name": "Risk Taker",
+    "prerequisites": "Trained in Climb or Jump",
+    "description": "fall only if fail by 10 or more & make Jump to land safely, can spend FP & add to distance jumped & must land\non solid surface",
+    "jedi": true,
+    "noble": false,
+    "scoundrel": false,
+    "scout": true,
+    "soldier": true
+  },
+  {
+    "name": "Running Attack",
+    "prerequisites": "Dex 13",
+    "description": "move before and after an attack, cannot exceed speed",
+    "jedi": true,
+    "noble": false,
+    "scoundrel": true,
+    "scout": true,
+    "soldier": true
+  },
+  {
+    "name": "Running Attack + Dodge",
+    "prerequisites": "Combo, requires Dodge",
+    "description": "add Dodge bonus to Ref Def v. Atk of opp",
+    "jedi": false,
+    "noble": false,
+    "scoundrel": false,
+    "scout": false,
+    "soldier": false
+  },
+  {
+    "name": "Sadistic Strike",
+    "prerequisites": null,
+    "description": "when you deliver a coup de grace all enemies in LOS move -1 down track until end of enc",
+    "jedi": false,
+    "noble": true,
+    "scoundrel": true,
+    "scout": false,
+    "soldier": true
+  },
+  {
+    "name": "Savage Attack",
+    "prerequisites": "Double Attack, proficient with weapon",
+    "description": "with full attack if hit on first attack, +1 die dam v. same target",
+    "jedi": true,
+    "noble": false,
+    "scoundrel": false,
+    "scout": false,
+    "soldier": true
+  },
+  {
+    "name": "Scavenger",
+    "prerequisites": null,
+    "description": "1 hour scavenging, Perception check to determine value",
+    "jedi": false,
+    "noble": false,
+    "scoundrel": true,
+    "scout": false,
+    "soldier": false
+  },
+  {
+    "name": "Scion of Dorin",
+    "prerequisites": "Kel Dor",
+    "description": "+5 Fort Def v. natural hazards",
+    "jedi": false,
+    "noble": false,
+    "scoundrel": false,
+    "scout": false,
+    "soldier": false
+  },
+  {
+    "name": "Sensor Link",
+    "prerequisites": "Droid or cyborg with associated hardware",
+    "description": "as swif broadcast input to any receiver in 24 sq as if they were with you, allies can use aid another on",
+    "jedi": false,
+    "noble": false,
+    "scoundrel": false,
+    "scout": false,
+    "soldier": false
+  },
+  {
+    "name": "Separatist Military Training",
+    "prerequisites": null,
+    "description": "+P1e rAcetkp toio none attack if adjacent to ally",
+    "jedi": false,
+    "noble": false,
+    "scoundrel": false,
+    "scout": false,
+    "soldier": true
+  },
+  {
+    "name": "Shake It Off",
+    "prerequisites": "Con 13, trained in Endurance",
+    "description": "spend two swift actions to move +2 up condition track",
+    "jedi": false,
+    "noble": false,
+    "scoundrel": false,
+    "scout": false,
+    "soldier": true
+  },
+  {
+    "name": "Sharp Senses",
+    "prerequisites": "Mon Calamari",
+    "description": "when spend Force Point to Perception, increase die type by 2 steps",
+    "jedi": false,
+    "noble": false,
+    "scoundrel": false,
+    "scout": false,
+    "soldier": false
+  },
+  {
+    "name": "Shield Surge",
+    "prerequisites": "trained Mechanics, Droid or cyborg with\nscomp or similar",
+    "description": "as reac if dam over SR reduce dam to vehicle by remaining SR amount & SR reduced by same amount,\nrecharge shields can't be used for 1 full rnd",
+    "jedi": false,
+    "noble": false,
+    "scoundrel": false,
+    "scout": false,
+    "soldier": false
+  },
+  {
+    "name": "Shrewd Bargainer",
+    "prerequisites": "Quarren",
+    "description": "when you use Persuasion target does not receive bonuses to Will Def",
+    "jedi": false,
+    "noble": false,
+    "scoundrel": false,
+    "scout": false,
+    "soldier": false
+  },
+  {
+    "name": "Signature Device",
+    "prerequisites": "Tech Specialist",
+    "description": "one item two traits from Tech Spec, switch between with swif",
+    "jedi": false,
+    "noble": true,
+    "scoundrel": true,
+    "scout": false,
+    "soldier": false
+  },
+  {
+    "name": "Silver Tongue",
+    "prerequisites": "Trained in Persuasion",
+    "description": "Intimidate or change attitude as a standard not full",
+    "jedi": false,
+    "noble": true,
+    "scoundrel": true,
+    "scout": false,
+    "soldier": false
+  },
+  {
+    "name": "Sith Military Training",
+    "prerequisites": null,
+    "description": "1/encounter, if reduce opp to 0hp or over thresh, w/in 6sq of opp -2 def",
+    "jedi": false,
+    "noble": false,
+    "scoundrel": false,
+    "scout": false,
+    "soldier": false
+  },
+  {
+    "name": "Skill Challenge: Catastrophic\nAvoidance",
+    "prerequisites": null,
+    "description": "1/challenge catastrophic fail only by 15, and only 1 failure, not 2",
+    "jedi": false,
+    "noble": false,
+    "scoundrel": false,
+    "scout": false,
+    "soldier": false
+  },
+  {
+    "name": "Skill Challenge: Last Resort",
+    "prerequisites": null,
+    "description": "1/challenge if third failure accrues, you or ally can reroll & keep better",
+    "jedi": false,
+    "noble": false,
+    "scoundrel": false,
+    "scout": false,
+    "soldier": false
+  },
+  {
+    "name": "Skill Challenge: Recovery",
+    "prerequisites": null,
+    "description": "1/challenge treat the challenge as if it had the recovery effect",
+    "jedi": false,
+    "noble": false,
+    "scoundrel": false,
+    "scout": false,
+    "soldier": false
+  },
+  {
+    "name": "Skill Focus",
+    "prerequisites": null,
+    "description": "+5 on a trained skill",
+    "jedi": true,
+    "noble": true,
+    "scoundrel": true,
+    "scout": true,
+    "soldier": true
+  },
+  {
+    "name": "Skill Training",
+    "prerequisites": null,
+    "description": "become trained in one class skill",
+    "jedi": true,
+    "noble": true,
+    "scoundrel": true,
+    "scout": true,
+    "soldier": true
+  },
+  {
+    "name": "Slammer",
+    "prerequisites": "Small or larger droid with 2 appropriate\nappendages, Str 13",
+    "description": "as stan action slam 2 appendages crushing target, deal unarmed dam w/Str bonus x2 & if over thresh =\npersistent condition",
+    "jedi": false,
+    "noble": false,
+    "scoundrel": false,
+    "scout": false,
+    "soldier": false
+  },
+  {
+    "name": "Slicer Team (team feat)",
+    "prerequisites": "Trained in Use Computer",
+    "description": "+3 Use Computer & +1 each ally w/feat w/in 12 sq (max +7), aid another provides +4",
+    "jedi": false,
+    "noble": false,
+    "scoundrel": false,
+    "scout": false,
+    "soldier": false
+  },
+  {
+    "name": "Sniper",
+    "prerequisites": "BAB +4, PB Shot, Precise Shot",
+    "description": "ignore soft cover making a ranged attack",
+    "jedi": false,
+    "noble": false,
+    "scoundrel": false,
+    "scout": true,
+    "soldier": true
+  },
+  {
+    "name": "Sniper Shot",
+    "prerequisites": "Proficient with ranged weapon",
+    "description": "+2 ranged Atk, -5 Ref Def, not with vehicle or heavy weapons",
+    "jedi": false,
+    "noble": false,
+    "scoundrel": true,
+    "scout": false,
+    "soldier": true
+  },
+  {
+    "name": "Spacer's Surge",
+    "prerequisites": "Duros",
+    "description": "when roll Nat 20 on Pilot check, gain Force Point to use before end of enc",
+    "jedi": false,
+    "noble": false,
+    "scoundrel": false,
+    "scout": false,
+    "soldier": false
+  },
+  {
+    "name": "Sport Hunter",
+    "prerequisites": "proficient with weapon",
+    "description": "Slugthrower Pistol at PB +1 die dam, Slugthrower Rifle dam d12, Sporting Blaster Pistol reroll any rolls of 1 for\ndam, Sporting Blaster Rifle +1 atk when aiming",
+    "jedi": false,
+    "noble": true,
+    "scoundrel": false,
+    "scout": true,
+    "soldier": true
+  },
+  {
+    "name": "Spray Shot",
+    "prerequisites": null,
+    "description": "reduce autofire to 1 square",
+    "jedi": false,
+    "noble": false,
+    "scoundrel": false,
+    "scout": false,
+    "soldier": false
+  },
+  {
+    "name": "Staggering Attack",
+    "prerequisites": "BAB +1, proficient with weapon",
+    "description": "melee atk -2 atk & deal dam target -2 to skill checks or you can take -5 atk for -5 to skills",
+    "jedi": true,
+    "noble": false,
+    "scoundrel": false,
+    "scout": false,
+    "soldier": true
+  },
+  {
+    "name": "Staggering Attack",
+    "prerequisites": "Sneak attack talent or Rapid Shot/Strike",
+    "description": "if deal extra dice dam, can move 2 sq per extra die not used",
+    "jedi": false,
+    "noble": false,
+    "scoundrel": false,
+    "scout": false,
+    "soldier": false
+  },
+  {
+    "name": "Stand Tall",
+    "prerequisites": null,
+    "description": "1/enc when you take dam all allies w/in 6 sq & LOS may atk attacker, reac",
+    "jedi": true,
+    "noble": true,
+    "scoundrel": true,
+    "scout": true,
+    "soldier": false
+  },
+  {
+    "name": "Starship Designer",
+    "prerequisites": "Tech Specialist, Trained in Mechanics",
+    "description": "you can design a starship from scratch",
+    "jedi": false,
+    "noble": false,
+    "scoundrel": false,
+    "scout": false,
+    "soldier": false
+  },
+  {
+    "name": "Starship Tactics",
+    "prerequisites": "Vehicular Combat, Trained in Pilot",
+    "description": "Learn a number of starship maneuvers = 1 + Wis mod (min one)",
+    "jedi": false,
+    "noble": false,
+    "scoundrel": false,
+    "scout": false,
+    "soldier": false
+  },
+  {
+    "name": "Stava Training",
+    "prerequisites": "Martial Arts I, Running Attack",
+    "description": "when making a grab you are 1 size larger, v. a charging opponent can make a grab if atk is successful, must\nbe wearing light or no armor, w/Expertise add Str & Dex mod to grapple checks",
+    "jedi": false,
+    "noble": false,
+    "scoundrel": false,
+    "scout": false,
+    "soldier": false
+  },
+  {
+    "name": "Stay Up",
+    "prerequisites": "Trained in Endurance",
+    "description": "1/encounter instead of dam you can take half dam & -1 down track",
+    "jedi": false,
+    "noble": false,
+    "scoundrel": false,
+    "scout": false,
+    "soldier": false
+  },
+  {
+    "name": "Steadying Position",
+    "prerequisites": "Careful Shot",
+    "description": "when prone & aim your target loses Dex to Ref Def",
+    "jedi": false,
+    "noble": false,
+    "scoundrel": true,
+    "scout": true,
+    "soldier": true
+  },
+  {
+    "name": "Strafe",
+    "prerequisites": "BAB +1",
+    "description": "autofire Atk 1 sq wide & 4sq long instead of 2x2",
+    "jedi": false,
+    "noble": false,
+    "scoundrel": false,
+    "scout": false,
+    "soldier": true
+  },
+  {
+    "name": "Strong Bellow",
+    "prerequisites": "Ithorian",
+    "description": "1/enc move one less down track when use bellow",
+    "jedi": false,
+    "noble": false,
+    "scoundrel": false,
+    "scout": false,
+    "soldier": false
+  },
+  {
+    "name": "Strong in the Force",
+    "prerequisites": null,
+    "description": "roll d8 instead of d6 when you spend a Force Point",
+    "jedi": true,
+    "noble": false,
+    "scoundrel": false,
+    "scout": false,
+    "soldier": false
+  },
+  {
+    "name": "Superior Tech",
+    "prerequisites": "Int 17, Tech Specialist, 9th level",
+    "description": "see page 24-25 SV",
+    "jedi": false,
+    "noble": false,
+    "scoundrel": false,
+    "scout": false,
+    "soldier": false
+  },
+  {
+    "name": "Suppression Fire",
+    "prerequisites": "Str 13, Burst Fire, WP Heavy",
+    "description": "with aid another & Atk roll beats target's Will Def, target needs cover",
+    "jedi": false,
+    "noble": false,
+    "scoundrel": false,
+    "scout": false,
+    "soldier": false
+  },
+  {
+    "name": "Sure Climber",
+    "prerequisites": "Sullustan",
+    "description": "if not distracted or threatened gain climb speed of 4",
+    "jedi": false,
+    "noble": false,
+    "scoundrel": false,
+    "scout": false,
+    "soldier": false
+  },
+  {
+    "name": "Surgical Expertise",
+    "prerequisites": "Trained in Treat Injury",
+    "description": "can perform surgery in 10 minutes instead of an hour",
+    "jedi": false,
+    "noble": true,
+    "scoundrel": false,
+    "scout": false,
+    "soldier": false
+  },
+  {
+    "name": "Survivor of Ryloth",
+    "prerequisites": "Twi'lek",
+    "description": "1/hour in heat or cold you & 10 allies can use result of Survival check in place of Fort Def",
+    "jedi": false,
+    "noble": false,
+    "scoundrel": false,
+    "scout": false,
+    "soldier": false
+  },
+  {
+    "name": "Swarm",
+    "prerequisites": "Coordinated Attack",
+    "description": "+1 melee Atk for each allied character adjacent to target",
+    "jedi": true,
+    "noble": false,
+    "scoundrel": false,
+    "scout": false,
+    "soldier": false
+  },
+  {
+    "name": "Tactical Advantage",
+    "prerequisites": "Combat Reflexes",
+    "description": "if do damage with Atk of Opp, can move 1 sq, no atk of opp",
+    "jedi": true,
+    "noble": true,
+    "scoundrel": false,
+    "scout": false,
+    "soldier": false
+  },
+  {
+    "name": "Tactical Genius",
+    "prerequisites": "Starship Tactics, Vehicular Combat*",
+    "description": "regain all spent maneuvers at end of round with natural 20 on Atk",
+    "jedi": false,
+    "noble": false,
+    "scoundrel": false,
+    "scout": false,
+    "soldier": false
+  },
+  {
+    "name": "Tae-Jitsu Training",
+    "prerequisites": "Martial Arts I, Dodge, trained in Initiative",
+    "description": "w/crit & unarmed dam increases 1 die step (d12 max), 1/enc w/successful atk spend swif to designate primary\nadversary & until end of enc gain Dodge feat v. primary & 1 other enemy, w/Expertise w/crit v. primary enemy -\n2 atk until next turn",
+    "jedi": false,
+    "noble": false,
+    "scoundrel": false,
+    "scout": false,
+    "soldier": false
+  },
+  {
+    "name": "Targeted Area",
+    "prerequisites": "BAB +5, WP in weapon",
+    "description": "select 1 target in area atk & they take +5 dam before Evasion",
+    "jedi": false,
+    "noble": false,
+    "scoundrel": false,
+    "scout": true,
+    "soldier": true
+  },
+  {
+    "name": "Tech Specialist",
+    "prerequisites": "Trained in Mechanics",
+    "description": "modify an item to give a special trait",
+    "jedi": false,
+    "noble": true,
+    "scoundrel": true,
+    "scout": false,
+    "soldier": false
+  },
+  {
+    "name": "Technical Experts (team feat)",
+    "prerequisites": "Trained in Mechanics",
+    "description": "+3 Mechanics & +1 each ally w/feat w/in 12 sq (max +7), aid another provides +4",
+    "jedi": false,
+    "noble": false,
+    "scoundrel": false,
+    "scout": false,
+    "soldier": false
+  },
+  {
+    "name": "Ter\u00e4s K\u00e4si Training",
+    "prerequisites": "Martial Arts I, Str 13",
+    "description": "1/rnd w/successful unarmed atk reduce target's dam thresh by 5 when determining effect, w/Basics you're\nconsidered 1 size larger for dam",
+    "jedi": false,
+    "noble": false,
+    "scoundrel": false,
+    "scout": false,
+    "soldier": false
+  },
+  {
+    "name": "Thick Skin",
+    "prerequisites": "Trandoshan",
+    "description": "+2 Fort Def",
+    "jedi": false,
+    "noble": false,
+    "scoundrel": false,
+    "scout": false,
+    "soldier": false
+  },
+  {
+    "name": "Throw",
+    "prerequisites": "BAB +1, Trip",
+    "description": "throw a grappled opponent one square and deal damage",
+    "jedi": false,
+    "noble": false,
+    "scoundrel": false,
+    "scout": false,
+    "soldier": true
+  },
+  {
+    "name": "Tireless Squad (team feat)",
+    "prerequisites": "Trained in Endurance",
+    "description": "+3 Endurance & +1 each ally w/feat w/in 12 sq (max +7), aid another provides +4",
+    "jedi": false,
+    "noble": false,
+    "scoundrel": false,
+    "scout": false,
+    "soldier": false
+  },
+  {
+    "name": "Tool Frenzy",
+    "prerequisites": "Small or larger droid with 2 appendages with\ntools",
+    "description": "as stan action strike w/appendages not normally weapons, unarmed +2 & -2 Ref Def, use dam of highest\nrated appendage for dam",
+    "jedi": false,
+    "noble": false,
+    "scoundrel": false,
+    "scout": false,
+    "soldier": false
+  },
+  {
+    "name": "Toughness",
+    "prerequisites": null,
+    "description": "+1 hp per level",
+    "jedi": false,
+    "noble": false,
+    "scoundrel": false,
+    "scout": false,
+    "soldier": true
+  },
+  {
+    "name": "Trample",
+    "prerequisites": "Trained in Ride",
+    "description": "charging mount can make free natural atk each sq charge through",
+    "jedi": false,
+    "noble": false,
+    "scoundrel": false,
+    "scout": true,
+    "soldier": false
+  },
+  {
+    "name": "Trench Warrior",
+    "prerequisites": null,
+    "description": "+1 Atk v. target if you are adjacent to cover from target",
+    "jedi": false,
+    "noble": false,
+    "scoundrel": false,
+    "scout": false,
+    "soldier": true
+  },
+  {
+    "name": "Trip",
+    "prerequisites": "BAB +1",
+    "description": "knock a grappled opponent prone, attacks v. prone +5, theirs -5",
+    "jedi": false,
+    "noble": false,
+    "scoundrel": false,
+    "scout": false,
+    "soldier": true
+  },
+  {
+    "name": "Triple Attack",
+    "prerequisites": "BAB +9, Double Attack, proficient",
+    "description": "make a extra attack during full attack, -5 to all attacks, per group",
+    "jedi": true,
+    "noble": false,
+    "scoundrel": false,
+    "scout": false,
+    "soldier": true
+  },
+  {
+    "name": "Triple Crit",
+    "prerequisites": "BAB +8, proficient with weapon",
+    "description": "deal triple damage on a Crit, with selected weapon",
+    "jedi": true,
+    "noble": false,
+    "scoundrel": false,
+    "scout": false,
+    "soldier": true
+  },
+  {
+    "name": "Turn and Burn",
+    "prerequisites": "Droid, Dex 13,\nhovering/flying/wheeled/tracked locomotion",
+    "description": "using withdraw can move 2 sq w/out atk of opp & move your spd, can spend FP as reac to an enemy ending\nits movement adjacent to withdraw",
+    "jedi": false,
+    "noble": false,
+    "scoundrel": false,
+    "scout": false,
+    "soldier": false
+  },
+  {
+    "name": "Unhindered Approach (team feat)",
+    "prerequisites": "Trained in Jump",
+    "description": "+3 Jump & +1 each ally w/feat w/in 12 sq (max +7), add 1 sq to jump",
+    "jedi": false,
+    "noble": false,
+    "scoundrel": false,
+    "scout": false,
+    "soldier": false
+  },
+  {
+    "name": "Unified Squadron (team feat)",
+    "prerequisites": "Trained in Pilot",
+    "description": "+3 Pilot & +1 each ally w/feat w/in 12 sq (max +7), always avoid collisions w/allies",
+    "jedi": false,
+    "noble": false,
+    "scoundrel": false,
+    "scout": false,
+    "soldier": false
+  },
+  {
+    "name": "Unleashed",
+    "prerequisites": "Destiny",
+    "description": "spend Destiny Point to access Unleashed abilities",
+    "jedi": false,
+    "noble": false,
+    "scoundrel": false,
+    "scout": false,
+    "soldier": false
+  },
+  {
+    "name": "Unstoppable Combatant",
+    "prerequisites": "Extra Second Wind",
+    "description": "can catch more than one Second Wind per encounter",
+    "jedi": false,
+    "noble": false,
+    "scoundrel": false,
+    "scout": false,
+    "soldier": false
+  },
+  {
+    "name": "Unstoppable Force",
+    "prerequisites": null,
+    "description": "+5 Fort Def & Will Def v. Use the Force",
+    "jedi": true,
+    "noble": false,
+    "scoundrel": false,
+    "scout": false,
+    "soldier": true
+  },
+  {
+    "name": "Unswerving Resolve",
+    "prerequisites": "BAB +2",
+    "description": "if targeted by fear or mind-affecting effect that fails, gain FP to be spent before next turn as long as you did not\nnegate",
+    "jedi": false,
+    "noble": false,
+    "scoundrel": false,
+    "scout": false,
+    "soldier": false
+  },
+  {
+    "name": "Unwavering Focus",
+    "prerequisites": "Zabrak",
+    "description": "when mind-affecting effect is against your Will Def, you impose -2",
+    "jedi": false,
+    "noble": false,
+    "scoundrel": false,
+    "scout": false,
+    "soldier": false
+  },
+  {
+    "name": "Unwavering Resolve",
+    "prerequisites": "Trained in Perception",
+    "description": "+5 Will Def v. Deception & Persuasion",
+    "jedi": true,
+    "noble": true,
+    "scoundrel": false,
+    "scout": false,
+    "soldier": false
+  },
+  {
+    "name": "Vehicle Systems Expertise",
+    "prerequisites": "Tech Specialist, Trained in Mechanics",
+    "description": "Recharge Shields/Reroute Power as 2swif, 1/encounter DC30 Mechanics 1 swif",
+    "jedi": false,
+    "noble": false,
+    "scoundrel": true,
+    "scout": true,
+    "soldier": false
+  },
+  {
+    "name": "Vehicular Combat",
+    "prerequisites": "Trained in Pilot",
+    "description": "negate one attack a round against a vehicle, Pilot v. Atk roll",
+    "jedi": false,
+    "noble": false,
+    "scoundrel": true,
+    "scout": true,
+    "soldier": true
+  },
+  {
+    "name": "Vehicular Surge",
+    "prerequisites": "Trained in Pilot",
+    "description": "1/day as swif bonus hp = 1/4 max hp of Colossal or smaller vehicle",
+    "jedi": false,
+    "noble": false,
+    "scoundrel": true,
+    "scout": true,
+    "soldier": true
+  },
+  {
+    "name": "Veteran Spacer",
+    "prerequisites": "Duros",
+    "description": "+5 Use Computer to perform astrogation",
+    "jedi": false,
+    "noble": false,
+    "scoundrel": false,
+    "scout": false,
+    "soldier": false
+  },
+  {
+    "name": "Vitality Surge",
+    "prerequisites": "Extra Second Wind",
+    "description": "can catch Second Wind even if not below half hit points",
+    "jedi": false,
+    "noble": false,
+    "scoundrel": false,
+    "scout": false,
+    "soldier": false
+  },
+  {
+    "name": "Warrior Heritage",
+    "prerequisites": "Gungan",
+    "description": "+2 Will Def when you wield atlatl or cesta",
+    "jedi": false,
+    "noble": false,
+    "scoundrel": false,
+    "scout": false,
+    "soldier": false
+  },
+  {
+    "name": "Wary Defender",
+    "prerequisites": null,
+    "description": "+2 Fort Def & Will Def if fight defensively",
+    "jedi": true,
+    "noble": true,
+    "scoundrel": false,
+    "scout": false,
+    "soldier": true
+  },
+  {
+    "name": "Wary Sentries (team feat)",
+    "prerequisites": "Trained in Perception",
+    "description": "+3 Perception & +1 each ally w/feat w/in 12 sq (max +7), can take 10",
+    "jedi": false,
+    "noble": false,
+    "scoundrel": false,
+    "scout": false,
+    "soldier": false
+  },
+  {
+    "name": "Weapon Finesse",
+    "prerequisites": "BAB +1",
+    "description": "Use Dex mod instead of Str mod on Atk with light melee weapons",
+    "jedi": true,
+    "noble": true,
+    "scoundrel": false,
+    "scout": false,
+    "soldier": false
+  },
+  {
+    "name": "Weapon Finesse + Weapon Focus",
+    "prerequisites": "Combo, requires Weapon Focus",
+    "description": "a single one-handed weapon with Focus is light for Weapon Finesse",
+    "jedi": false,
+    "noble": false,
+    "scoundrel": false,
+    "scout": false,
+    "soldier": false
+  },
+  {
+    "name": "Weapon Focus",
+    "prerequisites": "proficient with weapon",
+    "description": "+1 Atk on selected weapon",
+    "jedi": false,
+    "noble": false,
+    "scoundrel": false,
+    "scout": false,
+    "soldier": true
+  },
+  {
+    "name": "Weapon Focus + Weapon Finesse",
+    "prerequisites": "Combo, requires Weapon Finesse",
+    "description": "a single one-handed weapon with Focus is light for Weapon Finesse",
+    "jedi": false,
+    "noble": false,
+    "scoundrel": false,
+    "scout": false,
+    "soldier": false
+  },
+  {
+    "name": "Weapon Proficiency",
+    "prerequisites": null,
+    "description": "no -5 penalty on Atk",
+    "jedi": false,
+    "noble": false,
+    "scoundrel": false,
+    "scout": false,
+    "soldier": false
+  },
+  {
+    "name": "Weapon Proficiency  (lightsabers)\n+ QD",
+    "prerequisites": "Combo, requires Quick Draw",
+    "description": "draw and ignite lightsaber as single swif action",
+    "jedi": false,
+    "noble": false,
+    "scoundrel": false,
+    "scout": false,
+    "soldier": false
+  },
+  {
+    "name": "Whirlwind Attack",
+    "prerequisites": "Dex 13, Int 13, Melee Defense, BAB +4",
+    "description": "melee Atk against each target within reach, make one roll",
+    "jedi": false,
+    "noble": false,
+    "scoundrel": false,
+    "scout": false,
+    "soldier": false
+  },
+  {
+    "name": "Wicked Strike",
+    "prerequisites": "Rapid Strike",
+    "description": "with Rapid Strike make a 2nd atk at -2 w/in reach, deal half dam",
+    "jedi": true,
+    "noble": true,
+    "scoundrel": false,
+    "scout": false,
+    "soldier": false
+  },
+  {
+    "name": "Wilderness First Aid",
+    "prerequisites": "Trained in Survival",
+    "description": "1/day DC20 Survival & considered to have medpacs until end of day",
+    "jedi": false,
+    "noble": false,
+    "scoundrel": false,
+    "scout": true,
+    "soldier": false
+  },
+  {
+    "name": "Wilderness Specialists (team feat)",
+    "prerequisites": "Trained in Survival",
+    "description": "+3 Survival & +1 each ally w/feat w/in 12 sq (max +7), aid another provides +4",
+    "jedi": false,
+    "noble": false,
+    "scoundrel": false,
+    "scout": false,
+    "soldier": false
+  },
+  {
+    "name": "Withdrawal Strike",
+    "prerequisites": "BAB +5, proficient with melee weapon",
+    "description": "opponents may not withdraw, they may Tumble as normal",
+    "jedi": true,
+    "noble": false,
+    "scoundrel": false,
+    "scout": false,
+    "soldier": true
+  },
+  {
+    "name": "Wookiee Grip",
+    "prerequisites": "Str 13",
+    "description": "Wield a two-handed weapon one-handed at -2 atk",
+    "jedi": false,
+    "noble": false,
+    "scoundrel": false,
+    "scout": false,
+    "soldier": true
+  },
+  {
+    "name": "Wroshyr Rage",
+    "prerequisites": "Wookiee",
+    "description": "when you first enter a rage, gain hp = 10 + 1/2 level",
+    "jedi": false,
+    "noble": false,
+    "scoundrel": false,
+    "scout": false,
+    "soldier": false
+  },
+  {
+    "name": "Wrruushi Training",
+    "prerequisites": "Martial Arts I, Con 13, Wookiee",
+    "description": "1/rnd w/successful unarmed atk gain hp = Con mod, 1/enc atk Fort Def & if successful enemy takes dam &\nloses any equipment Fort Def for enc, w/Expertise 1/enc w/crit deal dam & move -2 down track, must be\nwearing light or no armor",
+    "jedi": false,
+    "noble": false,
+    "scoundrel": false,
+    "scout": false,
+    "soldier": false
+  },
+  {
+    "name": "Zero Range",
+    "prerequisites": "PB Shot",
+    "description": "+1 on ranged Atk and +1 die damage against adjacent foes",
+    "jedi": false,
+    "noble": false,
+    "scoundrel": true,
+    "scout": false,
+    "soldier": true
+  }
+]
