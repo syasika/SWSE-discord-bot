@@ -59,7 +59,7 @@ class Feats(commands.Cog, name="Feats"):
         ```
         """
         search_text = " ".join(args)
-        query = query_json(search_text)
+        query = query_feats(search_text)
         if len(query) == 0:
             await ctx.send(
                 embed=embed_success(title=f"No results found", description=f"Womp Womp")
@@ -100,7 +100,7 @@ class Talents(commands.Cog, name="Talents"):
         ```
         """
         search_text = " ".join(args)
-        query = query_json(search_text)
+        query = query_talents(search_text)
         if len(query) == 0:
             await ctx.send(
                 embed=embed_success(title=f"No results found", description=f"Womp Womp")
@@ -126,7 +126,7 @@ def get_search_url(text):
     return urllib.parse.quote_plus(text)
 
 
-def query_json(search):
+def query_feats(search):
     with open("./db/feats.json") as jsondata:
         feats = json.load(jsondata)
 
@@ -138,7 +138,7 @@ def query_json(search):
     return results
 
 
-def query_json(search):
+def query_talents(search):
     with open("./db/talents.json") as jsondata:
         feats = json.load(jsondata)
 
